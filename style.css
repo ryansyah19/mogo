@@ -30,6 +30,10 @@ a:hover , a:focus{
 	color:#308ac6;
 }
 
+hr{
+	border-bottom: 3px solid #fff;
+}
+
 
 /*Navigation style*/
 .navbar-brand{
@@ -86,7 +90,7 @@ a:hover , a:focus{
 	width:500px;
 	text-align:center;
 	padding-top:40px;
-	padding-bottom:80px;
+	padding-bottom:10px;
 }
 
 .course-web{
@@ -159,9 +163,7 @@ a:hover , a:focus{
 }
 
 .headi{
-	margin-top:40px;
 	padding-top:90px;
-	background:url(images/heading.png) no-repeat;
 	text-align:center;
 	background-position:center top;
 	padding: 0 0 20px 0;
@@ -254,32 +256,44 @@ a:hover , a:focus{
 	background	: transparent url(images/twitter.png) no-repeat;
 }
 
-.gam .caption .buton-trigger .web-a {
+.gam .caption .buton-trigger i{
+	Width	: 44px;
+	Height	: 44px;
+}
+
+.gam .caption .buton-trigger .fa{
+	color:#F16B6F;
+}
+.gam .caption .buton-trigger .web-a:hover{
 	background-position:15px 5px;
+	background-color:#F16B6F;
 }
 
-.gam .caption .buton-trigger .web-b{
-	background-position:-40px 5px;
-}
-
-.gam .caption .buton-trigger .web-c {
-	background-position:-95px 5px;
-}
-
-.gam .caption .buton-trigger .web-d {
-	background-position:-150px 5px;
+.gam .caption .buton-trigger .fa:hover {
+	background-color:#F16B6F;
+	color:#fff;
 	
 }
-
 
 .gam .caption .btn-trigger .web-link {
 	background-position	: left top;
 	position	:absolute;
 	left	:50%;
 	margin-left	: -14px;
+	border:none;
 
 }
 
+.caption-heading{
+	Width: 100%;
+	Position	: absolute;
+	Bottom	: 0;
+	Padding : 0px 0px 80px 0px;
+	color:#fff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:510;
+	font-size:20px;
+}
 .gam .caption .btn-trigger .web-lank {
 	position	:absolute;
 	left	:50%;
@@ -377,7 +391,7 @@ a:hover , a:focus{
 	position:absolute;
 	margin:0 auto;
 	left:410px;
-	top:3260px;
+	top:2860px;
 	bottom:0;
 	right:0;
 	display:inline-block;
@@ -396,6 +410,7 @@ a:hover , a:focus{
 	background:none;
 	color:#f9c00c;
 	outline:0;
+	border-bottom: 3px solid #f9c00c;
 }
 
 .navbar-default  .navbar-nav>li>a:hover,
@@ -403,6 +418,12 @@ a:hover , a:focus{
 	background:none;
 	color:#f9c00c;
 	outline:0;
+	border-bottom: 3px solid #f9c00c;
+}
+
+.headop{
+	border-bottom: 3px solid  #fff;
+	border:50px;
 }
 
 .navbar-toggle{
@@ -525,7 +546,7 @@ a:hover , a:focus{
 	background-position	: left top;
 	margin-top:left;
 	position:absolute;
-	top:7025px;
+	top:6970px;
 }
 
 .sepuluh{
@@ -712,6 +733,7 @@ a:hover , a:focus{
 		color:white;
 		font-family: 'Montserrat', sans-serif;
 		font-size:100px;
+		
 	}
 	
 	.judul2 p{
@@ -719,7 +741,7 @@ a:hover , a:focus{
 		color:black;
 		font-family: 'Kaushan Script', cursive;
 		font-size:25px;
-		padding-top:180px;
+		padding-top:60px;
 		
 	}
 	
@@ -919,7 +941,7 @@ a:hover .teks::before{
 	padding-left:620px;
 	padding-right:90px;
 	position: absolute;
-    top: 4090px;
+    top: 4020px;
 	margin-bottom:90px;
 }
 
@@ -1254,14 +1276,7 @@ a:hover .teks::before{
 	
 }
 
-.rowi{
-	position:relative;
-	margin:0 auto;
-	height:90px;
-	width:500px;
-	text-align:center;
-	padding-top:10px;
-}
+
 
 .sip {
 	width: 100%;
