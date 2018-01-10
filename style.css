@@ -317,7 +317,6 @@ a:hover , a:focus{
 	}
 	
 .sip {
-	width: 1900px;
     display: inline-block;
 	float:center;
 	text-align:center;
@@ -877,7 +876,7 @@ a:hover , a:focus{
 	}
 
 	.jumbroton .container{
-		width:1170px;
+		width:100%;
 	}
 	
 	
@@ -1079,7 +1078,7 @@ a:hover .teks::before{
 }
 
 .col-sm-6{
-	width:33%;
+	width:33.33333333%;
 }
 
 .sep{
@@ -1265,7 +1264,6 @@ a:hover .teks::before{
 }
 
 .sip {
-	width: 1150px;
 	width: 100%;
     display: inline-flex;
 	float:center;
@@ -1373,7 +1371,6 @@ a:hover .teks::before{
 }	
 
 .sip {
-	width: 950px;
 	width: 100%;
     display: inline-flex;
 	float:center;
@@ -1789,7 +1786,6 @@ a:hover .teks::before{
 	text-align:center;
 	color:white;
 	font-family: 'Montserrat', sans-serif;
-	font-size:20px;
 	font-size:10px;
 	}
 	
@@ -1955,9 +1951,7 @@ a:hover .teks::before{
 }
 
 .captu{
-	padding-left:20px;
-	width: 290px;
-	margin-right:30px;
+	width: 100%;
 }
 .four{
 	display:none;
