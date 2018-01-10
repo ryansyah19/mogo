@@ -1266,6 +1266,7 @@ a:hover .teks::before{
 
 .sip {
 	width: 1150px;
+	width: 100%;
     display: inline-flex;
 	float:center;
 	text-align:center;
@@ -1373,6 +1374,7 @@ a:hover .teks::before{
 
 .sip {
 	width: 950px;
+	width: 100%;
     display: inline-flex;
 	float:center;
 	text-align:center;
@@ -1788,6 +1790,7 @@ a:hover .teks::before{
 	color:white;
 	font-family: 'Montserrat', sans-serif;
 	font-size:20px;
+	font-size:10px;
 	}
 	
 .more{
