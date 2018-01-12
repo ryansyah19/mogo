@@ -735,6 +735,7 @@ hr{
 	.navbar-default .navbar-collapse{
 		background:none;
 		float:right;
+		border:none;
 	}
 	
 	.navbar-default .navbar-nav>li{
@@ -1665,7 +1666,7 @@ a:hover .teks::before{
 
 .navbar-default .navbar-nav{
 	float:left;
-	width:320px;
+	width:620px;
 	}
 	
 .teks{
@@ -2457,7 +2458,7 @@ a:hover .teks::before{
 }
 .navbar-default .navbar-collapse{
 		background:none;
-		width:130px;
+		width:190px;
 	}
 
 }
