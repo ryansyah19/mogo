@@ -10,8 +10,6 @@ body{
 
 p{
 	line-height:30px;
-	font-weight:400px;
-	padding-top:900;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -37,7 +35,7 @@ hr{
 
 /*Navigation style*/
 .navbar-brand{
-	width:235px;
+	width:135px;
 	height:40px;
 	padding:0;
 	margin:5px 0 0;
@@ -119,6 +117,7 @@ hr{
 
 .abu2{
 	padding-top:120px;
+	padding-bottom:90px;
 	text-align:left;
 	display:inline-block;
 	font-family: 'Montserrat', sans-serif;
@@ -275,6 +274,11 @@ hr{
 	
 }
 
+.kol .gallery-inner .caption .btn-trigger .fa:hover {
+	color:#fff;
+	
+}
+
 .gam .caption .btn-trigger .web-link {
 	background-position	: left top;
 	position	:absolute;
@@ -294,6 +298,23 @@ hr{
 	font-weight:510;
 	font-size:20px;
 }
+
+.caption-headingi{
+	Width: 100%;
+	Position	: absolute;
+	Bottom	: 0;
+	Padding : 0px 0px 50px 40px;
+	color:#fff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:50;
+	font-size:18px;
+}
+
+.ihi {
+	text-align:center;
+	padding-left:80px;
+}
+
 .gam .caption .btn-trigger .web-lank {
 	position	:absolute;
 	left	:50%;
@@ -323,11 +344,12 @@ hr{
 	margin-top:60px;
 	text-align:center;
 	background-position:center bottom;
+	background-size:100%;
 }
 	
-.blue{
-		background-size:100% auto;
-		margin-top:100px;
+.blue img{
+	background-size:100% auto;
+	margin-top:100px;
 	}
 	
 .sip {
@@ -356,7 +378,6 @@ hr{
 }
 
 .empat{
-	margin-top:90px;
 	background: url(images/sha.png) 100% 0 no-repeat;
 	background-size:100% auto;
 	margin-bottom:0;
@@ -391,7 +412,7 @@ hr{
 	position:absolute;
 	margin:0 auto;
 	left:410px;
-	top:2860px;
+	top:2790px;
 	bottom:0;
 	right:0;
 	display:inline-block;
@@ -546,12 +567,17 @@ hr{
 	background-position	: left top;
 	margin-top:left;
 	position:absolute;
-	top:6970px;
+	top:6090px;
+}
+
+.panel-title p{
+	margin-left:40px;
+	margin-top:-30px;
 }
 
 .sepuluh{
 	background:url(images/map1.png) no-repeat;
-	padding-top:500px;
+	padding-top:400px;
 	background-position:center bottom;
 	background-size:100% auto;
 	text-align:center;
@@ -633,13 +659,12 @@ hr{
 	background:url(images/gunung1.png) no-repeat;
 	background-size:100% auto;
 	margin-bottom:0;
-	margin-top:140px;
 }
 
 
 .ig{
 	display:inline-block;
-	width:350px;
+	width:280px;
 }
 
 .four{
@@ -708,6 +733,7 @@ hr{
 
 	.navbar-default .navbar-collapse{
 		background:none;
+		float:right;
 	}
 	
 	.navbar-default .navbar-nav>li{
@@ -804,6 +830,7 @@ hr{
 		text-align:center;
 		color:black;
 		font-family: 'Montserrat', sans-serif;
+		width:100%;
 	}
 	
 	.judul6 p{
@@ -866,6 +893,14 @@ hr{
 		font-family: 'Montserrat', sans-serif;
 		font-size:15px;
 		margin-top:5px;
+	}
+	
+	.abu100{
+		color:grey;
+		font-family: 'Montserrat', sans-serif;
+		font-size:15px;
+		margin-top:5px;
+		margin-bottom:50px;
 	}
 	
 	.rp{
@@ -941,7 +976,7 @@ a:hover .teks::before{
 	padding-left:620px;
 	padding-right:90px;
 	position: absolute;
-    top: 4020px;
+    top: 3450px;
 	margin-bottom:90px;
 }
 
@@ -974,6 +1009,16 @@ a:hover .teks::before{
 }
 @media(max-width: 1200px){
 	
+.hp img{
+	position:absolute;
+	margin:0 auto;
+	left:350px;
+	top:2590px;
+	bottom:0;
+	right:0;
+	display:inline-block;
+	width:230px;
+}
 
 
 .blue{
@@ -1013,7 +1058,7 @@ a:hover .teks::before{
 	float:left;
 	margin-top:50px;
 	margin-left:50px;
-	display:inline-flex;
+	display:inline-block;
 	width:260px;
 	height:200px;
 }
@@ -1060,7 +1105,7 @@ a:hover .teks::before{
 	margin-top:50px;
 	margin-left:50px;
 	margin-right:50px;
-	display:inline-flex;
+	display:inline-block;
 	width:250px;
 	height:180px;
 }	
@@ -1098,15 +1143,13 @@ a:hover .teks::before{
 	width:510px;
 	padding-top:40px;
 }
-
-.col-sm-6{
-	width:33.33333333%;
+.panel-group{
+	padding-left:620px;
+	padding-right:90px;
+	position: absolute;
+    top: 3250px;
 }
 
-.sep{
-	padding-top:0px;
-	
-}
 }
 
 @media(max-width: 1100px){
@@ -1191,7 +1234,7 @@ a:hover .teks::before{
 	margin-top:50px;
 	margin-left:50px;
 	margin-right:50px;
-	display:inline-flex;
+	display:inline-block;
 	width:210px;
 	height:180px;
 }	
@@ -1242,7 +1285,10 @@ a:hover .teks::before{
 .four{
 	display:inline-block;
 	padding-bottom:60px;
+	width:85%;
+	margin-top:-50px;
 }
+
 
 .four img{
 	border:0;
@@ -1253,14 +1299,22 @@ a:hover .teks::before{
 .col-lg-6 {
 	width:50%;
 }
+
+.panel-group{
+	padding-left:620px;
+	padding-right:90px;
+	position: absolute;
+    top: 3390px;
 }
 
-@media(min-width: 1200px) and (max-width: 1311px){
+
+}
+
+@media(max-width: 1311px){
 	
 .jumbroton{
 	background: url(images/bird.png) 100% 0 no-repeat;
-	background-size:100% auto;
-	padding:30px 30px 10px;
+	background-size:200% auto;
 	}
 	
 .jumbroton.caption{
@@ -1276,36 +1330,63 @@ a:hover .teks::before{
 	
 }
 
-
-
 .sip {
 	width: 100%;
-    display: inline-flex;
+    display: inline-block;
 	float:center;
 	text-align:center;
 	vertical-align:middle;
-	margin-left:50px;
-	margin-right:50px;
+}
+
+.sipi {
+	width: 90%;
+    display: none;
+	float:center;
+	text-align:center;
+	vertical-align:middle;
+}
+
+.caption-heading{
+	Width: 100%;
+	Position	: absolute;
+	Bottom	: 0;
+	Padding : 0px 0px 30px 0px;
+	color:#fff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:510;
+	font-size:20px;
+}
+
+.gam .caption{
+	opacity:0;
+	display:block;
+	position:absolute;
+	top:0;
+	width:100%;
+	height:100%;
+	background: url(images/color.png);
+	-webkit-transition	: opacity .1s ease-in-out;
+	
 }
 
 
 .blue img{
 		background-size:100% auto;
-		width:1200px;
 		margin-top:10px;
-		margin-left:50px;
-		margin-right:50px;
-		
 	}
+	
+.gallery-images{
+	width:100%;
+}
 	
 .hp img{
 	position:absolute;
 	margin:0 auto;
 	left:350px;
-	top:3240px;
+	top:2700px;
 	bottom:0;
 	right:0;
-	display:inline-block;
+	display:none;
 	width:230px;
 }
 
@@ -1313,7 +1394,8 @@ a:hover .teks::before{
 	padding-left:620px;
 	padding-right:90px;
 	position: absolute;
-    top: 4010px;
+    top: 3450px;
+	display:none;
 }
 
 .gam{
@@ -1323,19 +1405,25 @@ a:hover .teks::before{
 	position:relative;
 	float:left;
 	margin-top:50px;
-	margin-left:50px;
-	display:inline-flex;
-	width:340px;
+	display:inline-block;
+	width:20%;
 	
 
 }
 
+
+
 .log img{
-	margin-top:60px;
+	margin-top:90px;
 	text-align:center;
 	background-position:center bottom;
-	width:1100px;
+	width:90%;
 }
+
+.log{
+	display:inline-block;
+}
+
 
 .kol3 img{
 	float:left;
@@ -1346,6 +1434,7 @@ a:hover .teks::before{
 	padding-left:30px;
 	display:inline-block;
 	font-family: 'Montserrat', sans-serif;
+	display:none;
 }
 
 .heada{
@@ -1356,8 +1445,13 @@ a:hover .teks::before{
 	text-align:left;
 	background-position:left bottom;
 	padding: 0 0 20px 0;
+	display:none;
 	
 }
+
+.tujuh{
+	display:none;
+	}
 
 .judul222 p{
 		top:90px;
@@ -1368,26 +1462,25 @@ a:hover .teks::before{
 		padding-left:400px;
 		padding-top:0px;
 		margin-top:0px;
+		display:none;
 }
 
 .geger{
 	background-position	: left top;
 	margin-top:left;
 	position:absolute;
-	top:6890px;
+	top:6590px;
 }
 
 }
 
 @media(max-width: 950px){
 	
-.navbar-header{
-	margin-right:600px;
-}	
+	
 
 .sip {
 	width: 100%;
-    display: inline-flex;
+    display: inline-block;
 	float:center;
 	text-align:center;
 	vertical-align:middle;
@@ -1429,7 +1522,7 @@ a:hover .teks::before{
 	float:left;
 	margin-top:50px;
 	margin-left:50px;
-	display:inline-flex;
+	display:inline-block;
 	width:200px;
 	height:200px;
 }
@@ -1475,7 +1568,7 @@ a:hover .teks::before{
 	float:left;
 	margin-top:50px;
 	margin-left:30px;
-	display:inline-flex;
+	display:inline-block;
 	width:200px;
 	height:180px;
 }	
@@ -1509,7 +1602,7 @@ a:hover .teks::before{
 
 
 .col-sm-6{
-	width:33%;
+	width:33.3334%;
 }
 
 .sep{
@@ -1521,7 +1614,6 @@ a:hover .teks::before{
 	background:#f4f7f7;
 	width:100%;
 	height:100%;
-	margin-top:160px;
 	padding-bottom:40px;
 	display:inline-block;
 	text-align:center;
@@ -1557,6 +1649,10 @@ a:hover .teks::before{
 	padding-top:10px;
 }
 
+.teks{
+	display:none;
+}
+
 
 }
 
@@ -1569,6 +1665,10 @@ a:hover .teks::before{
 	float:left;
 	width:320px;
 	}
+	
+.teks{
+	display:none;
+}
 	
 .judul p{
 	text-align:center;
@@ -1599,7 +1699,7 @@ a:hover .teks::before{
 	float:left;
 	margin-top:50px;
 	margin-left:50px;
-	display:inline-flex;
+	display:inline-block;
 	width:260px;
 	height:200px;
 }
@@ -1611,7 +1711,10 @@ a:hover .teks::before{
 
 .col-md-6{
 	margin-top:30px;
+	display:none;
 }
+
+
 
 .hp img{
 	position:absolute;
@@ -1646,7 +1749,7 @@ a:hover .teks::before{
 	margin-top:50px;
 	margin-left:50px;
 	margin-right:50px;
-	display:inline-flex;
+	display:inline-block;
 	width:94px;
 	height:115px;
 }
@@ -1739,7 +1842,7 @@ a:hover .teks::before{
 
 .sip img{
 	width: 100%;
-    display: inline-flex;
+    display: inline-block;
 	float:center;
 	text-align:center;
 	vertical-align:middle;
@@ -1866,7 +1969,7 @@ a:hover .teks::before{
 	margin-top:50px;
 	margin-left:50px;
 	margin-right:50px;
-	display:inline-flex;
+	display:inline-block;
 	width:94px;
 	height:115px;
 }
@@ -1959,7 +2062,7 @@ a:hover .teks::before{
 
 .sip img{
 	width: 100%;
-    display: inline-flex;
+    display: inline-block;
 	float:center;
 	text-align:center;
 	vertical-align:middle;
@@ -2017,6 +2120,10 @@ a:hover .teks::before{
 
 
 .row{
+	display:none;
+}
+
+.log{
 	display:none;
 }
 
@@ -2119,6 +2226,9 @@ a:hover .teks::before{
 .footer{
 	display:none;
 }
+.teks{
+	display:none;
+}
 
 }
 
@@ -2166,6 +2276,7 @@ a:hover .teks::before{
 	top:2250px;
 	width:50px;
 	left:100px;
+	display:none;
 }
 
 .captu {
@@ -2179,8 +2290,11 @@ a:hover .teks::before{
 .gam{
 	width:100px;
 	height:160px;
+	display:none;
 }
 
+.sepuluh{padding-top:0;
+}
 .panel-group{
 	display:none;
 }
@@ -2211,6 +2325,12 @@ a:hover .teks::before{
 .judul5{
 	padding-top:100px;
 }
+
+.enam{
+	display:none;
+}
+
+.footer{display:none;}
 	
 }
 
@@ -2294,7 +2414,46 @@ a:hover .teks::before{
 }
 
 .judul5{
-	padding-top:700px;
+	padding-top:90px;
 }
+
+.judul2 p ,.judul3 p{
+	font-size:20px;
+	padding-top:50px;
+	height:1px;
 }
+
+.jumbroton{
+	padding:0;
+	background-size:230%;
+}
+
+.tub{
+	margin-bottom:0;
+}
+
+.chat{
+	margin-top:0;
+}
+
+.btn-group{
+	top:50px;
+}
+
+.gam .caption{
+	height:140%;
+}
+
+.teks{
+	display:none;
+}
+.navbar-default .navbar-collapse{
+		background:none;
+		width:130px;
+	}
+
+}
+
+
+
 
