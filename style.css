@@ -178,27 +178,31 @@ hr{
 	background-position:center bottom;
 	position:relative;
 	float:left;
+	width:33%;
 	margin-top:50px;
-	margin-left:50px;
+	padding:0 20px;
+}
+
+.game{
+	
+	text-align:center;
+	background-position:center bottom;
+	position:relative;
+	float:left;
+	width:33%;
+	margin-top:50px;
 }
 
 .gamo{
 	position:absolute;
-	top: 140px;
-    left: -15px;
+	top: 110px;
+    left: 10px;
 }
-	
-.gam .caption{
-	opacity:0;
-	display:block;
-	position:absolute;
-	top:0;
-	width:100%;
-	height:100%;
-	background: url(images/color.png);
-	-webkit-transition	: opacity .1s ease-in-out;
-	
+
+.gallery-images{
+	text-align:center;
 }
+
 
 .gam img{
 	padding:0;
@@ -218,8 +222,9 @@ hr{
 	display:block;
 	position:absolute;
 	top:0;
-	width:100%;
-	height:100%;
+	bottom:0;
+	left:20px;
+	right:20px;
 	background: url(images/color.png);
 	-webkit-transition	: opacity .1s ease-in-out;
 	
@@ -269,6 +274,81 @@ hr{
 }
 
 .gam .caption .buton-trigger .fa:hover {
+	background-color:#F16B6F;
+	color:#fff;
+	
+}
+
+.game img{
+	padding:0;
+	margin:0;
+}
+
+.game .caption h4{
+	color:#fff;
+}
+
+.game .caption small{
+	color: rgba(255,255,255,0.6);
+}
+
+.game .caption{
+	opacity:0;
+	display:block;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:1px;
+	right:1px;
+	background: url(images/color.png);
+	-webkit-transition	: opacity .1s ease-in-out;
+	
+}
+
+
+
+.game:hover .caption{
+	opacity:0.9;
+}
+
+.game .caption .btn-trigger{
+	text-align:center;
+	position:absolute;
+	top:40%;
+	right:1%;
+	width:100%;
+	
+}
+
+.game .caption .btn-trigger a{
+	Width	: 44px;
+	Height	: 44px;
+	text-indent	: -9999px;
+	background	: transparent url(images/user.png) no-repeat;
+	background-position	: left top;
+}
+
+.game .caption .buton-trigger a{
+	Width	: 44px;
+	Height	: 44px;
+	text-indent	: -9999px;
+	background	: transparent url(images/twitter.png) no-repeat;
+}
+
+.game .caption .buton-trigger i{
+	Width	: 44px;
+	Height	: 44px;
+}
+
+.game .caption .buton-trigger .fa{
+	color:#F16B6F;
+}
+.game .caption .buton-trigger .web-a:hover{
+	background-position:15px 5px;
+	background-color:#F16B6F;
+}
+
+.game .caption .buton-trigger .fa:hover {
 	background-color:#F16B6F;
 	color:#fff;
 	
@@ -345,6 +425,7 @@ hr{
 	text-align:center;
 	background-position:center bottom;
 	background-size:100%;
+	width:100%;
 }
 	
 .blue img{
@@ -380,7 +461,7 @@ hr{
 
 .empat{
 	background: url(images/sha.png) 100% 0 no-repeat;
-	background-size:100% auto;
+	background-size:cover;
 	margin-bottom:0;
 	text-align:center;
 	margin-top:50px;
@@ -414,7 +495,7 @@ hr{
 	position:absolute;
 	margin:0 auto;
 	left:410px;
-	top:2820px;
+	top:2720px;
 	bottom:0;
 	right:0;
 	display:inline-block;
@@ -571,7 +652,7 @@ hr{
 	background-position	: left top;
 	margin-top:left;
 	position:absolute;
-	top:6180px;
+	top:6080px;
 }
 
 .panel-title p{
@@ -581,7 +662,6 @@ hr{
 
 .sepuluh{
 	background:url(images/map1.png) no-repeat;
-	padding-top:400px;
 	background-position:center bottom;
 	background-size:100% auto;
 	text-align:center;
@@ -592,10 +672,12 @@ hr{
 	padding-top:70px;
 }
 
+
+
 .sep{
 	text-align:center;
 	vertical-align:middle;
-	padding-top:90px;
+	padding-top:150px;
 }
 
 
@@ -684,7 +766,7 @@ hr{
 }
 
 .aa{
-	padding-top:110px;
+	padding-top:90px;
 }
 
 .bb img{
@@ -860,6 +942,8 @@ hr{
 		font-family: 'Montserrat', sans-serif;
 		font-size:15px;
 		margin-top:30px;
+		padding-left:5px;
+		padding-right:10px;
 	}
 	
 	.abup{
@@ -890,7 +974,6 @@ hr{
 		color:grey;
 		font-family: 'Montserrat', sans-serif;
 		font-size:15px;
-		width:20%;
 	}
 	
 	.abu1{
@@ -931,6 +1014,7 @@ hr{
 	
 	.navbar{
 		margin-bottom:0;
+		margin-top:10px;
 	}
 	
 	.navbar .navbar-nav>li{
@@ -981,7 +1065,7 @@ a:hover .teks::before{
 	padding-left:620px;
 	padding-right:90px;
 	position: absolute;
-    top: 3500px;
+    top: 3400px;
 	margin-bottom:90px;
 }
 
@@ -1029,6 +1113,17 @@ a:hover .teks::before{
 	
 }
 @media(max-width: 1200px){
+	
+.gam .caption {
+    opacity: 0;
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 80%;
+    background: url(images/color.png);
+	-webkit-transition: opacity .1s ease-in-out;
+}
 	
 .hp img{
 	position:absolute;
@@ -1091,7 +1186,7 @@ a:hover .teks::before{
 	}
 
 .col-md-6{
-	margin-top:30px;
+	width:33%;
 }
 
 .hp img{
@@ -1171,6 +1266,27 @@ a:hover .teks::before{
     top: 3250px;
 }
 
+.sip .gam{
+	width: 90%;
+    display: none;
+	float:center;
+	text-align:center;
+	vertical-align:middle;
+}
+
+.po{
+	display:none;
+	}
+	
+.col-lg-6 {
+    width: 50%;
+    padding-left: 20px;
+	}
+.sosial-icons{
+	width:1000%;
+	
+
+}
 }
 
 @media(max-width: 1100px){
@@ -1352,7 +1468,7 @@ a:hover .teks::before{
 }
 
 .sip {
-	width: 100%;
+	width: 90%;
     display: inline-block;
 	float:center;
 	text-align:center;
@@ -1380,7 +1496,7 @@ a:hover .teks::before{
 
 .gam .caption{
 	opacity:0;
-	display:block;
+	display:none;
 	position:absolute;
 	top:0;
 	width:100%;
@@ -1399,6 +1515,7 @@ a:hover .teks::before{
 	
 .gallery-images{
 	width:100%;
+	padding-left:90px;
 }
 	
 .hp img{
@@ -1428,9 +1545,12 @@ a:hover .teks::before{
 	float:left;
 	margin-top:50px;
 	display:inline-block;
-	width:20%;
-	
+	width:30%;
 
+}
+
+.gam img{
+	width:90%;
 }
 
 
@@ -1444,6 +1564,7 @@ a:hover .teks::before{
 
 .log{
 	display:inline-block;
+	text-align:center;
 }
 
 
@@ -1502,7 +1623,7 @@ a:hover .teks::before{
 
 .sip {
 	width: 100%;
-    display: inline-block;
+    display: none;
 	float:center;
 	text-align:center;
 	vertical-align:middle;
@@ -1669,6 +1790,11 @@ a:hover .teks::before{
 	text-align:center;
 	vertical-align:middle;
 	padding-top:10px;
+	display:none;
+}
+
+.sep img{
+	padding-top:9px;
 }
 
 .teks{
@@ -2427,7 +2553,6 @@ a:hover .teks::before{
 
 .tub{
 	width:100px;
-	padding-top:60px;
 }
 
 .hp img{
@@ -2498,7 +2623,7 @@ a:hover .teks::before{
 }
 
 .tub{
-	margin-bottom:0;
+	margin-bottom:22px;
 }
 
 .chat{
