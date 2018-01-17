@@ -144,7 +144,7 @@ hr{
 
 .heada{
 	margin-top:20px;
-	margin-bottom:-25px;
+	margin-bottom:-16px;
 	background:url(images/heading.png) no-repeat;
 	text-align:left;
 	background-position:left bottom;
@@ -282,6 +282,8 @@ hr{
 .game img{
 	padding:0;
 	margin:0;
+	width:100%;
+	height:auto;
 }
 
 .game .caption h4{
@@ -298,8 +300,8 @@ hr{
 	position:absolute;
 	top:0;
 	bottom:7px;
-	left:23px;
-	right:24px;
+	left:0px;
+	right:0px;
 	background: url(images/color.png);
 	-webkit-transition	: opacity .1s ease-in-out;
 	
@@ -338,6 +340,7 @@ hr{
 .game .caption .buton-trigger i{
 	Width	: 44px;
 	Height	: 44px;
+	padding-top:5px;
 }
 
 .game .caption .buton-trigger .fa{
@@ -652,7 +655,7 @@ hr{
 	background-position	: left top;
 	margin-top:left;
 	position:absolute;
-	top:6150px;
+	top:6255px;
 }
 
 .panel-title p{
@@ -677,7 +680,8 @@ hr{
 .sep{
 	text-align:center;
 	vertical-align:middle;
-	padding-top:250px;
+	padding-top:50px;
+	padding-bottom:15px;
 }
 
 
@@ -864,7 +868,7 @@ hr{
 		color:black;
 		font-family: 'Kaushan Script', cursive;
 		font-size:25px;
-		padding-left:90px;
+		padding-left:72px;
 		padding-top:0px;
 	}
 	
@@ -874,7 +878,7 @@ hr{
 		color:black;
 		font-family: 'Kaushan Script', cursive;
 		font-size:25px;
-		padding-left:90px;
+		padding-left:75px;
 		padding-top:0px;
 		margin-top:0px;
 	}
@@ -1430,7 +1434,6 @@ a:hover .teks::before{
 .four{
 	display:inline-block;
 	padding-bottom:60px;
-	width:85%;
 	margin-top:-50px;
 }
 
@@ -1567,7 +1570,7 @@ a:hover .teks::before{
 	margin-top:90px;
 	text-align:center;
 	background-position:center bottom;
-	width:90%;
+	width:100%;
 }
 
 .log{
