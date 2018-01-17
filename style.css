@@ -297,9 +297,9 @@ hr{
 	display:block;
 	position:absolute;
 	top:0;
-	bottom:0;
-	left:1px;
-	right:1px;
+	bottom:7px;
+	left:23px;
+	right:24px;
 	background: url(images/color.png);
 	-webkit-transition	: opacity .1s ease-in-out;
 	
@@ -495,7 +495,7 @@ hr{
 	position:absolute;
 	margin:0 auto;
 	left:410px;
-	top:2720px;
+	top:2780px;
 	bottom:0;
 	right:0;
 	display:inline-block;
@@ -652,7 +652,7 @@ hr{
 	background-position	: left top;
 	margin-top:left;
 	position:absolute;
-	top:6080px;
+	top:6150px;
 }
 
 .panel-title p{
@@ -677,7 +677,7 @@ hr{
 .sep{
 	text-align:center;
 	vertical-align:middle;
-	padding-top:150px;
+	padding-top:250px;
 }
 
 
@@ -786,7 +786,7 @@ hr{
 	font-family: 'Montserrat', sans-serif;
 	color:black;
 	text-align:left;
-	width:510px;
+	width:100%;
 	padding-top:80px;
 }
 
@@ -1065,7 +1065,7 @@ a:hover .teks::before{
 	padding-left:620px;
 	padding-right:90px;
 	position: absolute;
-    top: 3400px;
+    top: 3440px;
 	margin-bottom:90px;
 }
 
@@ -1256,7 +1256,7 @@ a:hover .teks::before{
 	font-family: 'Montserrat', sans-serif;
 	color:black;
 	text-align:left;
-	width:510px;
+	width:100%;
 	padding-top:40px;
 }
 .panel-group{
@@ -1286,6 +1286,14 @@ a:hover .teks::before{
 	width:1000%;
 	
 
+}
+
+.sepuluh{
+	padding:none;
+}
+
+.sep{
+	padding:0px;
 }
 }
 
@@ -1406,7 +1414,7 @@ a:hover .teks::before{
 	font-family: 'Montserrat', sans-serif;
 	color:black;
 	text-align:left;
-	width:510px;
+	width:100%;
 	padding-top:40px;
 }
 
@@ -1615,11 +1623,17 @@ a:hover .teks::before{
 	top:6590px;
 }
 
+.lima{
+	text-align:center;
+}
+
 }
 
 @media(max-width: 950px){
 	
-	
+.lima{
+	text-align:center;
+}
 
 .sip {
 	width: 100%;
@@ -1809,7 +1823,9 @@ a:hover .teks::before{
 	width:100%;
 }
 
-
+.lima{
+	text-align:center;
+}
 
 .navbar-default .navbar-nav{
 	float:left;
@@ -1938,7 +1954,7 @@ a:hover .teks::before{
 	font-family: 'Montserrat', sans-serif;
 	color:black;
 	text-align:left;
-	width:420px;
+	width:100%;
 	padding-top:40px;
 }
 
@@ -1998,12 +2014,7 @@ a:hover .teks::before{
 	vertical-align:middle;
 }
 
-.captu{
-	padding-left:60px;
-	width: 290px;
-	margin-left:120px;
-	margin-right:20px;
-}
+
 .four{
 	display:none;
 	}
@@ -2054,7 +2065,7 @@ a:hover .teks::before{
 	text-align:center;
 	color:white;
 	font-family: 'Montserrat', sans-serif;
-	font-size:10px;
+	font-size:25px;
 	}
 	
 .more{
@@ -2159,7 +2170,7 @@ a:hover .teks::before{
 	font-family: 'Montserrat', sans-serif;
 	color:black;
 	text-align:left;
-	width:420px;
+	width:100%;
 	padding-top:40px;
 }
 
