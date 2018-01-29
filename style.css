@@ -2250,7 +2250,7 @@ a:hover .teks::before{
 
 
 .sip img{
-	width: 100%;
+	width: 50%;
     display: inline-block;
 	float:center;
 	text-align:center;
@@ -2478,6 +2478,16 @@ a:hover .teks::before{
     height: 129px;
 }
 
+.gallery-images .sip .gam{
+	width:100%;
+	height:100px;
+	padding:3px;
+}
+
+.gallery-images img{
+	width:50%;
+}
+
 .gam .caption {
     opacity: 0;
     display: block;
@@ -2634,9 +2644,9 @@ a:hover .teks::before{
     display: block;
     position: absolute;
     top: 2px;
-    width: 93%;
-    height: 51%;
-    left: 3px;
+    width: 50%;
+    height: 83%;
+    left: 25%;
     background: url(images/color.png);
 -webkit-transition: opacity .1s ease-in-out;
 
@@ -2694,13 +2704,14 @@ a:hover .teks::before{
 
 	
 .gallery-images .sip .gam{
-	width:81px;
+	width:100%;
 	height:100px;
 	padding:3px;
 }
 
+
 .tub{
-	width:100px;
+	width:40%;
 }
 
 .captu img{
@@ -2745,7 +2756,7 @@ a:hover .teks::before{
 
 .jumbroton{
 	padding:0;
-	background-size:auto;
+	background-size:cover;
 }
 
 .tub{
@@ -2844,8 +2855,8 @@ button, input, select, textarea {
 
 .gamo {
     position: absolute;
-    top: 22px;
-    left: 0px;
+    top: 31px;
+    left: 35px;
     width: 25%;
 }
 
@@ -3035,7 +3046,7 @@ button, input, select, textarea {
 	.gallery-inner {
     position: relative;
     float: left;
-    height: 202px;
+    height: 208px;
 }
 }
 
@@ -3157,7 +3168,7 @@ button, input, select, textarea {
 	.gallery-inner {
     position: relative;
     float: left;
-    height: 150px;
+    height: 156px;
 }
 }
 
