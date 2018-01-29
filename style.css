@@ -387,7 +387,7 @@ hr{
 	width: 100%;
 	position	: absolute;
 	bottom:0;
-	padding : 0px 0px 50px 40px;
+	padding : 0px 0px 35px 40px;
 	color:#fff;
 	font-family: 'Montserrat', sans-serif;
 	font-weight:50;
@@ -827,6 +827,12 @@ hr{
 	margin-right:10px;
 }
 
+.bb{
+	width:100%;
+	display:inline-block;
+	padding-top:50px;
+}
+
 .cc{
 	width:33,33%;
 	display:inline-block;
@@ -1037,6 +1043,7 @@ hr{
 	
 	.rp{
 		font-weight:900;
+		width:100%;
 	}
 
 	.jumbroton h3{
@@ -1179,6 +1186,10 @@ a:hover .teks::before{
 	
 }
 @media(max-width: 1200px){
+	
+.col-dd-6{
+	width:100%;
+}
 	
 .caption-heading {
     width: 100%;
@@ -1370,7 +1381,7 @@ a:hover .teks::before{
     padding-left: 20px;
 	}
 .sosial-icons{
-	width:1000%;
+	width:100%;
 	
 
 }
@@ -1380,6 +1391,7 @@ a:hover .teks::before{
 }
 
 .sep{
+	margin-top:10%;
 	padding:0px;
 }
 }
@@ -1542,6 +1554,13 @@ a:hover .teks::before{
 
 @media(max-width: 1311px) and (min-width: 1200px){
 	
+.geger {
+    background-position: left top;
+    margin-top: left;
+    position: absolute;
+    top: 6210px;
+}
+	
 .gallery-inner {
     position: relative;
     float: left;
@@ -1660,12 +1679,16 @@ a:hover .teks::before{
 	background-position	: left top;
 	margin-top:left;
 	position:absolute;
-	top:6590px;
+	top:6136px;
 }
 
 }
 
 @media(max-width: 950px){
+	
+.judul5{
+	padding-top:40%;
+}
 	
 .ig img{
 	width:24%;
@@ -1738,6 +1761,7 @@ a:hover .teks::before{
 	right:0;
 	display:inline-block;
 	width:10%;
+	display:none;
 }
 
 .tub{
@@ -1803,7 +1827,8 @@ a:hover .teks::before{
 }
 
 .sep{
-	padding-top:0px;
+	padding-top:1%;
+	padding-bottom:1%;
 	
 }
 
@@ -2009,7 +2034,8 @@ a:hover .teks::before{
 
 
 .sep{
-	padding-top:0px;
+	padding-top:1%;
+	padding-bottom:1%;
 	
 }
 
@@ -2191,7 +2217,7 @@ a:hover .teks::before{
 
 .four{
 	width:100%;
-	margin-top:-90px;
+	margin-top:-12px;
 	}
 
 
@@ -2246,7 +2272,7 @@ a:hover .teks::before{
 
 
 .form{
-	width:10px;
+	width:100%;
 }
 
 
@@ -2262,12 +2288,9 @@ a:hover .teks::before{
     font-family: 'Montserrat', sans-serif;
     color: black;
     text-align: left;
-    width: 76%;
+    width: 100%;
     padding-top: 40px;
 }
-
-	
-	
 .navbar-default .navbar-collapse {
     background: none;
     border: none;
@@ -2340,6 +2363,7 @@ a:hover .teks::before{
     right: 0;
     display: inline-block;
     width: 10%;
+	display:none;
 }
 	
 .navbar-default .navbar-collapse {
@@ -2349,20 +2373,13 @@ a:hover .teks::before{
     padding-left: 36%;
 }
 	
-.row h4, p{
-	font-size:10px;
-}
-
-.row img{
-	width:25%;
-}
 	
 .game .caption {
     opacity: 0;
     display: block;
     position: absolute;
 	width:100%;
-	height:96%;
+	height:98%;
     top: 0;
     bottom: 7px;
     left: 0px;
@@ -2384,7 +2401,7 @@ a:hover .teks::before{
 
 .btn-group {
     top: 25px;
-    width: 63%;
+    width: 25%;
 }
 	
 
@@ -2430,7 +2447,8 @@ a:hover .teks::before{
 	width:100px;
 }
 
-.sepuluh{padding-top:0;
+.sepuluh{
+	margin-top:10%;
 }
 
 .log img{
@@ -2488,16 +2506,16 @@ a:hover .teks::before{
 
 @media(max-width: 410px) and (min-width: 230px){
 	
-	p{
-		font-size:10px;
-	}
+
+	
+	
+.rp{
+	width:70%;
+}
+
 	
 .bb{
 	padding-top:50px;
-}
-	
-.judul4 p{
-	font-size:9px;
 }
 	
 .panel-group{
@@ -2505,20 +2523,6 @@ a:hover .teks::before{
 	padding:20px;
 	top:2290px;
 	
-}
-
-.row p{
-	font-size:6px;
-	line-height:15px;
-}
-	
-.row h4{
-	font-size:6px;
-	line-height:15px;
-}
-
-.row img{
-	width:25%;
 }
 
 	
@@ -2530,10 +2534,6 @@ a:hover .teks::before{
 	top: 4155px;
     text-align: center;
 }
-
-.ig img{
-	width:16px;
-}
 	
 .ig{
     display: inline-block;
@@ -2542,13 +2542,8 @@ a:hover .teks::before{
 .col-md-6 .sosial-icons{
 	padding-left:0;
 }
-	
-.aa img{
-	width:100%;
-}
-
 .bb img{
-	width:100%;
+	width:50%;
 }
 
 .judul7, .abu1, .abua, .judul6 p, .abu0, .abu100{
@@ -2808,7 +2803,7 @@ a:hover .teks::before{
     background: url(images/heading.png) no-repeat;
     text-align: left;
     background-position: left bottom;
-    padding: 0 20px 4px 0;
+    padding: 0 20px 45px 0;
 }
 
 button, input, select, textarea {
@@ -2816,7 +2811,7 @@ button, input, select, textarea {
     font-size: inherit;
     line-height: inherit;
     padding: 0px 5px;
-    width: 66px;
+    width: 49%;
 }
 
 .form p{
@@ -2904,12 +2899,39 @@ button, input, select, textarea {
 }
 
 }
+@media (max-width: 1317px){
+	.gallery-inner {
+    position: relative;
+    float: left;
+    height: 264px;
+}
+}
+
+@media (max-width: 1300px){
+	.gallery-inner {
+    position: relative;
+    float: left;
+    height: 260px;
+}
+}
 
 @media (max-width: 1290px){
 	.gallery-inner {
     position: relative;
     float: left;
     height: 256px;
+}
+
+.judul5{
+	padding-top:10%;
+}
+}
+
+@media (max-width: 1270px){
+	.gallery-inner {
+    position: relative;
+    float: left;
+    height: 253px;
 }
 }
 
@@ -2958,6 +2980,14 @@ button, input, select, textarea {
     float: left;
     height: 232px;
 }
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    padding: 0px 5px;
+    width: 170px;
+}
 }
 
 @media (max-width: 1135px){
@@ -2967,6 +2997,15 @@ button, input, select, textarea {
     height: 228px;
 }
 }
+@media (max-width: 1120px){
+	.gallery-inner {
+    position: relative;
+    float: left;
+    height: 224px;
+}
+}
+
+
 
 @media (max-width: 1110px){
 	.gallery-inner {
@@ -3038,6 +3077,10 @@ button, input, select, textarea {
     float: left;
     height: 180px;
 }
+
+.judul5{
+	padding-top:67%;
+}
 }
 
 @media (max-width: 890px){
@@ -3046,6 +3089,12 @@ button, input, select, textarea {
     float: left;
     height: 175px;
 }
+
+.judul5{
+	padding-top:70%;
+}
+
+
 }
 
 @media (max-width: 875px){
@@ -3072,11 +3121,27 @@ button, input, select, textarea {
 }
 }
 
+@media (max-width: 820px){
+	.gallery-inner {
+    position: relative;
+    float: left;
+    height: 164px;
+}
+}
+
 @media (max-width: 810px){
 	.gallery-inner {
     position: relative;
     float: left;
     height: 162px;
+}
+}
+
+@media (max-width: 800px){
+	.gallery-inner {
+    position: relative;
+    float: left;
+    height:159px;
 }
 }
 
@@ -3109,6 +3174,14 @@ button, input, select, textarea {
     position: relative;
     float: left;
     height: 143px;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 12px;
+    line-height: inherit;
+    padding: 0px 5px;
+    width: 170px;
 }
 }
 
@@ -3152,6 +3225,14 @@ button, input, select, textarea {
 }
 }
 
+@media (max-width: 620px){
+	.gallery-inner {
+    position: relative;
+    float: left;
+    height: 120px;
+}
+}
+
 @media (max-width: 600px){
 	.gallery-inner {
     position: relative;
@@ -3167,6 +3248,19 @@ button, input, select, textarea {
     height: 113px;
 }
 }
+
+@media (max-width: 570px){
+	.col-lg-6{
+		width:100%;
+	}
+}
+
+@media (max-width: 564px){
+	.rp {
+		width:163px;
+}
+}
+
 
 @media (max-width: 560px){
 	.gallery-inner {
@@ -3184,6 +3278,25 @@ button, input, select, textarea {
 }
 }
 
+@media (max-width: 534px){
+	.headah {
+    margin-top: 5px;
+    text-align: left;
+    background-position: left bottom;
+    padding: 0 20px 4px 0;
+}
+}
+
+@media (max-width: 525px){
+	.col-sm-6{
+		width:100%;
+	}
+	
+	.col-dd-6{
+		width:56%;
+	}
+}
+
 @media (max-width: 520px){
 	.gallery-inner {
     position: relative;
@@ -3192,11 +3305,27 @@ button, input, select, textarea {
 }
 }
 
+@media (max-width: 510px){
+	.gallery-inner {
+    position: relative;
+    float: left;
+    height: 100px;
+}
+}
+
 @media (max-width: 500px){
 	.gallery-inner {
     position: relative;
     float: left;
-    height: 102px;
+    height: 97px;
+}
+}
+
+@media (max-width: 490px){
+	.gallery-inner {
+    position: relative;
+    float: left;
+    height: 94px;
 }
 }
 
@@ -3204,7 +3333,15 @@ button, input, select, textarea {
 	.gallery-inner {
     position: relative;
     float: left;
-    height: 99px;
+    height: 94px;
+}
+}
+
+@media (max-width: 470px){
+	.gallery-inner {
+    position: relative;
+    float: left;
+    height: 92px;
 }
 }
 
@@ -3212,15 +3349,44 @@ button, input, select, textarea {
 	.gallery-inner {
     position: relative;
     float: left;
-    height: 96px;
+    height: 90px;
 }
 }
+
+@media (max-width: 450px){
+	.col-lg-6{
+		width:100%;
+	}
+	
+	.col-sm-6{
+		width:100%;
+	}
+	
+	.gallery-inner {
+    position: relative;
+    float: left;
+    height: 86px;
+}
+
+	.row{
+		text-align:center;
+	}
+}
+
 
 @media (max-width: 440px){
 	.gallery-inner {
     position: relative;
     float: left;
-    height: 93px;
+    height: 84px;
+}
+}
+
+@media (max-width: 430px){
+	.gallery-inner {
+    position: relative;
+    float: left;
+    height: 87px;
 }
 }
 
@@ -3228,7 +3394,7 @@ button, input, select, textarea {
 	.gallery-inner {
     position: relative;
     float: left;
-    height: 90px;
+    height: 80px;
 }
 }
 
@@ -3236,21 +3402,30 @@ button, input, select, textarea {
 	.gallery-inner {
     position: relative;
     float: left;
-    height: 87px;
+    height: 78px;
+}
+
+.headah {
+    margin-top: 5px;
+    margin-left: 1px;
+    background: url(images/heading.png) no-repeat;
+    text-align: left;
+    background-position: left bottom;
+    padding: 0px 20px 10px 0;
 }
 }
 @media (max-width: 400px){
 	.gallery-inner {
     position: relative;
     float: left;
-    height: 84px;
+    height: 76px;
 }
 }
 @media (max-width: 390px){
 	.gallery-inner {
     position: relative;
     float: left;
-    height: 81px;
+    height: 74px;
 }
 }
 
@@ -3258,7 +3433,7 @@ button, input, select, textarea {
 	.gallery-inner {
     position: relative;
     float: left;
-    height: 78px;
+    height: 76px;
 }
 }
 
@@ -3266,7 +3441,7 @@ button, input, select, textarea {
 	.gallery-inner {
     position: relative;
     float: left;
-    height: 75px;
+    height: 70px;
 }
 }
 
@@ -3274,7 +3449,7 @@ button, input, select, textarea {
 	.gallery-inner {
     position: relative;
     float: left;
-    height: 72px;
+    height: 68px;
 }
 }
 
@@ -3282,7 +3457,7 @@ button, input, select, textarea {
 	.gallery-inner {
     position: relative;
     float: left;
-    height: 69px;
+    height: 66px;
 }
 }
 
@@ -3290,7 +3465,7 @@ button, input, select, textarea {
 	.gallery-inner {
     position: relative;
     float: left;
-    height: 66px;
+    height: 64px;
 }
 }
 
@@ -3298,7 +3473,7 @@ button, input, select, textarea {
 	.gallery-inner {
     position: relative;
     float: left;
-    height: 63px;
+    height: 62px;
 }
 }
 
@@ -3306,7 +3481,7 @@ button, input, select, textarea {
 	.gallery-inner {
     position: relative;
     float: left;
-    height: 60px;
+    height: 65px;
 }
 }
 
@@ -3314,7 +3489,7 @@ button, input, select, textarea {
 	.gallery-inner {
     position: relative;
     float: left;
-    height: 57px;
+    height: 58px;
 }
 }
 
@@ -3322,7 +3497,7 @@ button, input, select, textarea {
 	.gallery-inner {
     position: relative;
     float: left;
-    height: 54px;
+    height: 56px;
 }
 }
 
@@ -3330,7 +3505,7 @@ button, input, select, textarea {
 	.gallery-inner {
     position: relative;
     float: left;
-    height: 51px;
+    height: 54px;
 }
 }
 
@@ -3338,8 +3513,9 @@ button, input, select, textarea {
 	.gallery-inner {
     position: relative;
     float: left;
-    height: 50px;
+    height: 52px;
 }
+
 }
 
 @media (max-width: 270px){
@@ -3354,7 +3530,7 @@ button, input, select, textarea {
 	.gallery-inner {
     position: relative;
     float: left;
-    height: 47px;
+    height: 48px;
 }
 }
 
