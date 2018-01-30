@@ -2243,7 +2243,7 @@ a:hover .teks::before{
 
 
 .abuab{
-	text-align:left;
+	text-align:center;
 	color:grey;
 	font-family: 'Montserrat', sans-serif;
 	font-size:15px;
@@ -2251,7 +2251,7 @@ a:hover .teks::before{
 
 
 .sip img{
-	width: 50%;
+	width: 100%;
     display: inline-block;
 	float:center;
 	text-align:center;
@@ -2673,9 +2673,9 @@ a:hover .teks::before{
     display: block;
     position: absolute;
     top: 2px;
-    width: 50%;
-    height: 107%;
-    left: 25%;
+    width: 98%;
+    height: 98%;
+    left: 1%;
     background: url(images/color.png);
 -webkit-transition: opacity .1s ease-in-out;
 
@@ -2684,14 +2684,12 @@ a:hover .teks::before{
     width: 100%;
     position: absolute;
     bottom: 0;
-    padding: 0px 0px 30px 0px;
+    padding: 0px 0px 100px 0px;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-weight: 510;
-    font-size: 10px;
-    font-size: 10px;
+    font-size: 20px;
 	margin-bottom:-38px;
-	display:none;
 }
 
 	
@@ -2734,7 +2732,7 @@ a:hover .teks::before{
 	
 .gallery-images .sip .gam{
 	width:100%;
-	height:100px;
+	height:100%;
 	padding:3px;
 }
 
@@ -2894,8 +2892,8 @@ button, input, select, textarea {
 
 .gamo {
     position: absolute;
-    top: 31px;
-    left: 35px;
+    top: 110px;
+    left: 5px;
     width: 25%;
 }
 
@@ -3231,7 +3229,8 @@ button, input, select, textarea {
     font-size: 12px;
     line-height: inherit;
     padding: 0px 5px;
-    width: 170px;
+    width: 100%;
+	margin-top:10px;
 }
 }
 
@@ -3307,7 +3306,7 @@ button, input, select, textarea {
 
 @media (max-width: 564px){
 	.rp {
-		width:263px;
+		width:100%;
 }
 }
 
@@ -3454,9 +3453,9 @@ button, input, select, textarea {
 
 .headah {
     margin-top: 5px;
-    margin-left: 1px;
+    margin-left: 115px;
     background: url(images/heading.png) no-repeat;
-    text-align: left;
+    text-align: center;
     background-position: left bottom;
     padding: 0px 20px 10px 0;
 }
