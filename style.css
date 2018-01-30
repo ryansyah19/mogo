@@ -2632,11 +2632,16 @@ a:hover .teks::before{
     background-position: center bottom;
     position: relative;
     float: left;
-    margin-top: 50px;
+    margin-top: 10px;
+	margin-bottom:10px;
     display: inline-block;
     width: 82px;
     height: 71px;
 	padding:0 5px;
+}
+
+.blue img{
+	margin-top:20px;
 }
 
 .gam .caption {
@@ -2645,7 +2650,7 @@ a:hover .teks::before{
     position: absolute;
     top: 2px;
     width: 50%;
-    height: 83%;
+    height: 107%;
     left: 25%;
     background: url(images/color.png);
 -webkit-transition: opacity .1s ease-in-out;
@@ -2768,8 +2773,8 @@ a:hover .teks::before{
 }
 
 .btn-group{
-	top:25px;
-	width:87%;
+	top:1px;
+	width:50%;
 }
 
 .navbar-default .navbar-collapse{
@@ -2797,6 +2802,15 @@ a:hover .teks::before{
     -webkit-transition: opacity .1s ease-in-out;
 }
 
+.game {
+    text-align: center;
+    background-position: center bottom;
+    position: relative;
+    float: left;
+    width: 33%;
+    margin-top: 50px;
+}
+
 .game .caption .buton-trigger i {
     Width: 33px;
     Height: 33px;
@@ -2806,6 +2820,7 @@ a:hover .teks::before{
 .game .caption .buton-trigger .fa {
     color: #F16B6F;
     font-size: 22px;
+	width:100%;
 }
 
 .headah {
