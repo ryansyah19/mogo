@@ -2355,6 +2355,7 @@ a:hover .teks::before{
 
 @media(min-width: 410px) and (max-width: 600px){
 	
+	
 .hp img {
     position: absolute;
     margin: 0 auto;
@@ -2518,6 +2519,21 @@ a:hover .teks::before{
 @media(max-width: 410px) and (min-width: 230px){
 	
 
+.four img {
+    border: 0;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding-left: 90px;
+}
+
+.rp{
+	width:100%;
+}
+
+.rp p{
+	text-align:center;
+}
 
 .rowi p{
 	font-size:150%;
@@ -2561,7 +2577,7 @@ a:hover .teks::before{
 }
 
 .judul7, .abu1, .abua, .judul6 p, .abu0, .abu100{
-	font-size:10px;
+	font-size:12px;
 }
 	
 .caption-headingi{
@@ -2777,8 +2793,7 @@ a:hover .teks::before{
 }
 
 .btn-group{
-	top:1px;
-	width:50%;
+	top:180px;
 }
 
 .navbar-default .navbar-collapse{
@@ -2797,7 +2812,7 @@ a:hover .teks::before{
     display: block;
     position: absolute;
 	width:100%;
-	height:96%;
+	height:98.5%;
     top: 0;
     bottom: 7px;
     left: 0px;
@@ -2811,7 +2826,7 @@ a:hover .teks::before{
     background-position: center bottom;
     position: relative;
     float: left;
-    width: 33%;
+    width: 100%;
     margin-top: 50px;
 }
 
@@ -2823,8 +2838,8 @@ a:hover .teks::before{
 
 .game .caption .buton-trigger .fa {
     color: #F16B6F;
-    font-size: 22px;
-	width:100%;
+    font-size: 30px;
+	height:38px;
 }
 
 .headah {
@@ -3287,7 +3302,7 @@ button, input, select, textarea {
 
 @media (max-width: 564px){
 	.rp {
-		width:163px;
+		width:263px;
 }
 }
 
