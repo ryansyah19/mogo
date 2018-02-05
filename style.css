@@ -388,7 +388,7 @@ hr{
 	width: 100%;
 	position	: absolute;
 	bottom:0;
-	padding : 0px 0px 35px 40px;
+	padding : 0px 0px -1px 40px;
 	color:#fff;
 	font-family: 'Montserrat', sans-serif;
 	font-weight:50;
@@ -425,19 +425,78 @@ hr{
 		width:100%;
 }
 
+.log{
+	width:100%;
+	text-align:center;
+	background-color:#f4f4f4;
+	position:absolute;
+	top:5090px;
+}
 .log img{
-	margin-top:60px;
 	text-align:center;
 	background-position:center bottom;
 	background-size:100%;
-	width:100%;
+	width:14%;
+	padding:20px;
 }
 	
-.blue img{
-	background-size:100% auto;
-	margin-top:100px;
+	
+.blue{
+	background-color:#a5dff9;
+	position:absolute;
 	width:100%;
-	}
+	background-size:cover;
+	text-align:center;
+	margin-top:5%;
+}
+	
+.big{
+	color:white;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:700;
+	font-size:80px;
+	padding-top:70px;
+	padding-bottom:30px;
+}
+
+.bigg{
+	color:white;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:500;
+	font-size:14px;
+	padding-bottom:70px;
+}
+
+.kolo1{
+	width:20%;
+	float:left;
+}
+
+.kolo2{
+	width:20%;
+	float:left;
+}
+
+.kolo3{
+	width:20%;
+	float:left;
+}
+
+.kolo4{
+	width:20%;
+	float:left;
+}
+
+.kolo5{
+	width:20%;
+	float:left;
+}
+
+
+
+.tiga{
+	padding-top:25%;
+}
 	
 .sip {
     display: inline-block;
@@ -484,6 +543,10 @@ hr{
 	background-color:rgba(255,255,255,0.7);
 }
 
+.tujuh{
+	padding-top:70%;
+}
+
 .delapana{
 	background-color:rgba(255,255,255,0.7);
 }
@@ -500,7 +563,7 @@ hr{
 	position:absolute;
 	margin:0 auto;
 	left:410px;
-	top:2780px;
+	top:2760px;
 	bottom:0;
 	right:0;
 	display:inline-block;
@@ -698,7 +761,7 @@ hr{
 	background-position	: left top;
 	margin-top:left;
 	position:absolute;
-	top:6210px;
+	top:6250px;
 }
 
 .panel-title p{
@@ -905,7 +968,7 @@ hr{
 		color:black;
 		font-family: 'Kaushan Script', cursive;
 		font-size:25px;
-		padding-top:60px;
+		padding-top:70px;
 		
 	}
 	
@@ -1062,7 +1125,7 @@ hr{
 
 
 	.jumbroton{
-		padding:30px 0;
+		padding:60px 0;
 	}
 	
 	.navbar{
@@ -1103,11 +1166,6 @@ a:hover .teks::before{
 	padding-bottom:630px;
 }
 
-.captu{
-	width: 40%;
-}
-
-
 
 .panel-body{
 	color:grey;
@@ -1118,7 +1176,7 @@ a:hover .teks::before{
 	padding-left:620px;
 	padding-right:90px;
 	position: absolute;
-    top: 3440px;
+    top: 3435px;
 	margin-bottom:90px;
 }
 
@@ -1132,7 +1190,7 @@ a:hover .teks::before{
 .gallery-inner{	
 	position: relative;
     float: left;
-    height: 270px;
+    height: 273px;
 }
 }
 
@@ -1188,6 +1246,113 @@ a:hover .teks::before{
 }
 @media(max-width: 1200px){
 	
+	.blue{
+	background-color:#a5dff9;
+	position:absolute;
+	width:100%;
+	background-size:cover;
+	text-align:center;
+	margin-top:5%;
+}
+	
+.big{
+	color:white;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:700;
+	font-size:80px;
+	padding-top:70px;
+	padding-bottom:30px;
+	letter-spacing:4px;
+}
+
+.bigg{
+	color:white;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:500;
+	font-size:14px;
+	padding-bottom:70px;
+	letter-spacing:4px;
+}
+
+.kolo1{
+	width:20%;
+	float:left;
+}
+
+.kolo2{
+	width:20%;
+	float:left;
+}
+
+.kolo3{
+	width:20%;
+	float:left;
+}
+
+.kolo4{
+	width:20%;
+	float:left;
+}
+
+.kolo5{
+	width:20%;
+	float:left;
+}
+	
+.blue{
+	background-color:#a5dff9;
+	position:absolute;
+	width:100%;
+	height:40%;
+	background-size:cover;
+	text-align:center;
+	margin-top:5%;
+}
+	
+.big{
+	color:white;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:700;
+	font-size:80px;
+	padding-top:70px;
+	padding-bottom:30px;
+	letter-spacing:4px;
+}
+
+.bigg{
+	color:white;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:500;
+	font-size:14px;
+	padding-bottom:70px;
+	letter-spacing:4px;
+}
+
+.kolo1{
+	width:20%;
+	float:left;
+}
+
+.kolo2{
+	width:20%;
+	float:left;
+}
+
+.kolo3{
+	width:20%;
+	float:left;
+}
+
+.kolo4{
+	width:20%;
+	float:left;
+}
+
+.kolo5{
+	width:20%;
+	float:left;
+}
+	
 .col-dd-6{
 	width:100%;
 }
@@ -1203,9 +1368,7 @@ a:hover .teks::before{
     font-size: 20px;
 }
 	
-.caption-headingi{
-	display:none;
-}
+
 	
 .gallery-inner {
     position: relative;
@@ -1243,10 +1406,6 @@ a:hover .teks::before{
 	width:230px;
 }
 
-
-.blue{
-	width:initial;
-}
 
 .navbar-default .navbar-nav{
 	float:right;
@@ -1336,13 +1495,12 @@ a:hover .teks::before{
 
 .log{
 	text-align:center;
+	top:4670px;
 }
 
 .log img{
-	margin-top:60px;
 	text-align:center;
 	background-position:center bottom;
-	width:1000px;
 }
 
 .abu2{
@@ -1369,10 +1527,10 @@ a:hover .teks::before{
 	padding-top:40px;
 }
 .panel-group{
-	padding-left:478px;
+	padding-left:598px;
 	padding-right:5px;
 	position: absolute;
-    top: 3017px;
+    top: 3143px;
 }
 
 
@@ -1406,9 +1564,6 @@ a:hover .teks::before{
 
 .col-lg-4{
 	width:36%;
-}
-.blue{
-	width:initial;
 }
 
 .navbar-default .navbar-nav{
@@ -1488,10 +1643,12 @@ a:hover .teks::before{
 }
 
 .log img{
-	margin-top:60px;
 	text-align:center;
 	background-position:center bottom;
-	width:100%;
+}
+
+.tujuh{
+	padding-top:80%;
 }
 
 .abu2{
@@ -1544,16 +1701,21 @@ a:hover .teks::before{
 }
 
 .panel-group{
-	padding-left:417px;
+	padding-left:605px;
 	padding-right:5px;
 	position: absolute;
-    top: 2991px;
+    top: 3035px;
 }
 
 
 }
 
 @media(max-width: 1311px) and (min-width: 1200px){
+	
+	
+.tujuh{
+	padding-top:80%;
+	}
 	
 .geger {
     background-position: left top;
@@ -1656,10 +1818,8 @@ a:hover .teks::before{
 }
 
 .log img{
-	margin-top:90px;
 	text-align:center;
 	background-position:center bottom;
-	width:100%;
 }
 
 .log{
@@ -1799,10 +1959,21 @@ a:hover .teks::before{
 }
 
 .log img{
-	margin-top:60px;
 	text-align:center;
 	background-position:center bottom;
-	width:100%;
+}
+
+.log{
+	
+	top:5000px;
+}
+
+.log img{
+	width:25%;
+}
+
+.tujuh{
+	padding-top:100%;
 }
 
 .abu2{
@@ -1883,6 +2054,41 @@ a:hover .teks::before{
 }
 
 @media(max-width: 950px) and (min-width:600px){
+	
+.tiga{
+	padding-top:70%;
+}
+	
+.blue{
+	height:90%;
+}
+
+.kolo1{
+	width:50%;
+	float:left;
+}
+
+.kolo2{
+	width:50%;
+	float:left;
+}
+
+.kolo3{
+	width:30%;
+	float:left;
+}
+
+.kolo4{
+	width:40%;
+	float:left;
+}
+
+.kolo5{
+	width:30%;
+	float:left;
+}
+	
+
 	
 	
 .navbar-default .navbar-collapse {
@@ -1965,7 +2171,7 @@ a:hover .teks::before{
 	}
 
 .tub{
-	width:110px;
+	width:310px;
 	margin-bottom:90px;
 }
 
@@ -2334,7 +2540,11 @@ a:hover .teks::before{
 
 
 .log img{
-	width:100%;
+	width:30%;
+}
+
+.tujuh{
+	padding-top:120%;
 }
 
 .abu2{
@@ -2354,6 +2564,49 @@ a:hover .teks::before{
 }
 
 @media(min-width: 410px) and (max-width: 600px){
+	
+
+.tiga{
+	padding-top:100%;
+}	
+
+	
+.blue{
+	height:auto;
+}
+	
+.kolo1{
+	width:100%;
+	float:left;
+}
+
+.kolo2{
+	width:100%;
+	float:left;
+}
+
+.kolo3{
+	width:100%;
+	float:left;
+}
+
+.kolo4{
+	width:100%;
+	float:left;
+}
+
+.kolo5{
+	width:100%;
+	float:left;
+}
+	
+.log{
+	top:6485px;
+}
+	
+.log img{
+	padding-top:10px;
+}
 	
 	
 .hp img {
@@ -2437,13 +2690,10 @@ a:hover .teks::before{
 }
 
 .tub{
-	width:100px;
+	width:300px;
 	padding-top:60px;
 }
 
-.captu {
-	width:35%;
-}
 
 .cat{
 	width:100px;
@@ -2451,10 +2701,6 @@ a:hover .teks::before{
 
 .sepuluh{
 	margin-top:10%;
-}
-
-.log img{
-	width:100%;
 }
 
 .abu2{
@@ -2482,21 +2728,23 @@ a:hover .teks::before{
 
 .gallery-images .sip .gam{
 	width:100%;
-	height:100px;
+	height:100%;
 	padding:3px;
 }
 
-.gallery-images img{
-	width:50%;
+.sip img{
+	width:70%;
 }
 
 .gam .caption {
     opacity: 0;
     display: block;
     position: absolute;
-    top: 0;
+    top: 3px;
     width: 70%;
-    height: 48%;
+    height: 95%;
+    left: 15%;
+
     background: url(images/color.png);
     -webkit-transition: opacity .1s ease-in-out;
 }
@@ -2504,12 +2752,11 @@ a:hover .teks::before{
     width: 100%;
     position: absolute;
     bottom: 0;
-    padding: 0px 0px 30px 0px;
+    padding: 0px 0px 110px 0px;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-weight: 510;
-    font-size: 10px;
-    font-size: 10px;
+    font-size: 20px;
 	margin-bottom:-38px;
 }
 
@@ -2517,6 +2764,35 @@ a:hover .teks::before{
 }
 
 @media(max-width: 410px) and (min-width: 230px){
+	
+.blue{
+	height:auto;
+}
+	
+.kolo1{
+	width:100%;
+	float:left;
+}
+
+.kolo2{
+	width:100%;
+	float:left;
+}
+
+.kolo3{
+	width:100%;
+	float:left;
+}
+
+.kolo4{
+	width:100%;
+	float:left;
+}
+
+.kolo5{
+	width:100%;
+	float:left;
+}
 	
 
 .four img {
@@ -2533,6 +2809,7 @@ a:hover .teks::before{
 
 .rp p{
 	text-align:center;
+	width:90%;
 }
 
 .rowi p{
@@ -2684,7 +2961,7 @@ a:hover .teks::before{
     width: 100%;
     position: absolute;
     bottom: 0;
-    padding: 0px 0px 100px 0px;
+    padding: 0px 0px 80px 0px;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-weight: 510;
@@ -2738,7 +3015,7 @@ a:hover .teks::before{
 
 
 .tub{
-	width:40%;
+	width:100%;
 }
 
 .captu img{
@@ -2755,7 +3032,7 @@ a:hover .teks::before{
 }
 
 .log img{
-	width:100%;
+	width:40%;
 }
 
 .abu2{
@@ -2782,7 +3059,6 @@ a:hover .teks::before{
 }
 
 .jumbroton{
-	padding:0;
 	background-size:cover;
 }
 
@@ -3138,8 +3414,16 @@ button, input, select, textarea {
     height: 175px;
 }
 
+.caption-headingi{
+	display:none;
+}
+
 .judul5{
 	padding-top:70%;
+}
+
+.tujuh{
+	padding-top:120%;
 }
 
 
@@ -3215,6 +3499,10 @@ button, input, select, textarea {
     float: left;
     height: 147px;
 }
+
+	.tiga{
+		padding-top:80%;
+	}
 }
 
 @media (max-width: 730px){
@@ -3264,6 +3552,7 @@ button, input, select, textarea {
     float: left;
     height: 130px;
 }
+
 }
 
 @media (max-width: 640px){
@@ -3271,6 +3560,10 @@ button, input, select, textarea {
     position: relative;
     float: left;
     height: 126px;
+}
+
+.tujuh{
+	padding-top:130%;
 }
 }
 
@@ -3280,6 +3573,10 @@ button, input, select, textarea {
     float: left;
     height: 120px;
 }
+
+.captu{
+	width:100%;
+}
 }
 
 @media (max-width: 600px){
@@ -3288,6 +3585,10 @@ button, input, select, textarea {
     float: left;
     height: 116px;
 }
+
+.tiga{
+	padding-top:230%;
+	}
 }
 
 @media (max-width: 580px){
@@ -3317,6 +3618,10 @@ button, input, select, textarea {
     float: left;
     height: 110px;
 }
+
+.tiga{
+	padding-top:250%;
+	}
 }
 
 @media (max-width: 540px){
@@ -3341,6 +3646,10 @@ button, input, select, textarea {
 		width:100%;
 	}
 	
+	.log{
+	top:6800px;
+}
+	
 }
 
 @media (max-width: 520px){
@@ -3357,6 +3666,10 @@ button, input, select, textarea {
     float: left;
     height: 100px;
 }
+
+.tiga{
+	padding-top:270%;
+	}
 }
 
 @media (max-width: 500px){
@@ -3389,6 +3702,10 @@ button, input, select, textarea {
     float: left;
     height: 92px;
 }
+
+.tiga{
+	padding-top:300%;
+	}
 }
 
 @media (max-width: 460px){
@@ -3434,6 +3751,10 @@ button, input, select, textarea {
     float: left;
     height: 87px;
 }
+
+.tiga{
+	padding-top:320%;
+	}
 }
 
 @media (max-width: 420px){
@@ -3448,7 +3769,15 @@ button, input, select, textarea {
 	.gallery-inner {
     position: relative;
     float: left;
-    height: 78px;
+    height: 159px;
+}
+
+.log{
+	top:8040px;
+}
+
+.tiga{
+	padding-top:340%;
 }
 
 .headah {
@@ -3459,19 +3788,23 @@ button, input, select, textarea {
     background-position: left bottom;
     padding: 0px 20px 10px 0;
 }
+
+.tujuh {
+    padding-top: 550%;
+}
 }
 @media (max-width: 400px){
 	.gallery-inner {
     position: relative;
     float: left;
-    height: 76px;
+    height: 153px;
 }
 }
 @media (max-width: 390px){
 	.gallery-inner {
     position: relative;
     float: left;
-    height: 74px;
+    height: 151px;
 }
 }
 
@@ -3479,7 +3812,233 @@ button, input, select, textarea {
 	.gallery-inner {
     position: relative;
     float: left;
-    height: 76px;
+    height: 148px;
+}
+
+.tiga{
+	padding-top:360%;
+}
+}
+@media (min-width: 375px) and (max-height: 558px){
+	.log{
+		top:8155px;
+	}
+	
+	.gallery-inner {
+    position: relative;
+    float: left;
+    height: 153px;
+}
+
+}
+@media (min-width: 1024px) and (max-height: 558px){
+	
+	.hp img {
+    position: absolute;
+    margin: 0 auto;
+    left: 430px;
+    top: 2670px;
+    bottom: 0;
+    right: 0;
+    display: inline-block;
+    width: 250px;
+}
+
+.panel-group {
+    padding-left: 519px;
+    padding-right: 5px;
+    position: absolute;
+    top: 3407px;
+}
+
+.log img {
+    text-align: center;
+    background-position: center bottom;
+    width: 15%;
+}
+
+.kol1{
+	width:25%;
+	float:left;
+}
+	
+}
+@media (min-width: 425px) and (max-height: 558px){
+	
+.tub {
+    width: 100%;
+    padding-top: 60px;
+}
+	.gam .caption {
+    opacity: 0;
+    display: block;
+    position: absolute;
+    top: 83px;
+    width: 60%;
+    height: 102%;
+    left: 20%;
+    background: url(images/color.png);
+    -webkit-transition: opacity .1s ease-in-out;
+}
+
+.caption-heading {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 0px 0px 80px 0px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 510;
+    font-size: 10px;
+    font-size: 20px;
+    margin-bottom: -38px;
+}
+
+.jumbroton {
+    padding: 60px 0;
+}
+
+.captu{
+	width:100%
+}
+
+.log {
+    top: 6935px;
+}
+
+.gallery-inner {
+    position: relative;
+    float: left;
+    height: 86px;
+    width: 100%;
+}
+
+.gallery-images img {
+    width: 100%;
+}
+
+.gallery-images .sip .gam {
+    width: 100%;
+    height: 100px;
+    padding: 85px;
+}
+
+.gamo {
+    position: absolute;
+    top: 145px;
+    left: 50px;
+    width: 20%;
+}
+.rowi {
+    position: relative;
+    margin: 0 auto;
+    height: 90px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    width: 70%;
+}
+
+.blue{
+	margin-top:40%;
+}
+
+.caption-headingi{
+	display:none;
+}
+
+
+}
+
+@media (min-width: 768px) and (max-height: 558px){
+	
+.gallery-images .sip .gam {
+    width: 33%;
+    height: auto;
+	padding:10px;
+}
+	.jumbroton {
+    padding: 45px 0;
+}
+
+.blue{
+	margin-top:5%;
+}
+
+
+
+.gam .caption {
+    opacity: 0;
+    display: block;
+    position: absolute;
+    top: 8px;
+    width: 93%;
+    height: 90%;
+    left: 3.5%;
+    background: url(images/color.png);
+    -webkit-transition: opacity .1s ease-in-out;
+}
+
+.tub {
+    width: 50%;
+    padding-top: 60px;
+}
+
+.captu{
+	width:50%;
+}
+
+.log img {
+    text-align: center;
+    background-position: center bottom;
+}
+
+.log{
+	top:5000px;
+}
+
+.headah {
+    margin-top: 5px;
+    margin-left: 130px;
+    background: url(images/heading.png) no-repeat;
+    text-align: left;
+    background-position: left bottom;
+    padding: 0 20px 4px 0;
+}
+
+.rp {
+    font-weight: 900;
+}
+
+.kol1{
+	width:50%;
+	float:left;
+	padding:0;
+}
+
+.kol2{
+	width:50%;
+	float:left;
+	padding:0;
+}
+
+.kol3{
+	width:50%;
+	float:left;
+	padding:0;
+}
+
+.kol4{
+	width:50%;
+	float:left;
+	padding:0;
+}
+
+.gallery-inner {
+    position: relative;
+    float: left;
+    height: 312px;
+    width: 100%;
 }
 }
 
@@ -3487,7 +4046,7 @@ button, input, select, textarea {
 	.gallery-inner {
     position: relative;
     float: left;
-    height: 70px;
+    height: 145px;
 }
 }
 
@@ -3495,7 +4054,15 @@ button, input, select, textarea {
 	.gallery-inner {
     position: relative;
     float: left;
-    height: 68px;
+    height: 138px;
+}
+
+.tiga{
+	padding-top:380%;
+}
+
+.log{
+	top:7933px;
 }
 }
 
@@ -3503,15 +4070,31 @@ button, input, select, textarea {
 	.gallery-inner {
     position: relative;
     float: left;
-    height: 66px;
+    height: 135px;
 }
+.log{
+	top:7860px;
 }
 
+}
+@media (max-width: 345px){
+	.log{
+	top:7780px;
+}
+}
 @media (max-width: 340px){
 	.gallery-inner {
     position: relative;
     float: left;
-    height: 64px;
+    height: 128px;
+}
+
+.log{
+	top:7780px;
+}
+
+.tiga{
+	padding-top:400%;
 }
 }
 
@@ -3519,15 +4102,31 @@ button, input, select, textarea {
 	.gallery-inner {
     position: relative;
     float: left;
-    height: 62px;
+    height: 126px;
 }
+.log{
+	top:7707px;
 }
 
+}
+@media (max-width: 325px){
+	.log{
+	top:7611px;
+}
+}
 @media (max-width: 320px){
 	.gallery-inner {
     position: relative;
     float: left;
     height: 130px;
+}
+
+.log{
+	top:7580px;
+}
+
+.tiga{
+	padding-top:420%;
 }
 }
 
@@ -3535,7 +4134,11 @@ button, input, select, textarea {
 	.gallery-inner {
     position: relative;
     float: left;
-    height: 58px;
+    height: 117px;
+}
+
+.log{
+	top:7527px;
 }
 }
 
@@ -3543,7 +4146,15 @@ button, input, select, textarea {
 	.gallery-inner {
     position: relative;
     float: left;
-    height: 56px;
+    height: 112px;
+}
+
+.log{
+	top:7435px;
+}
+
+.tiga{
+	padding-top:440%;
 }
 }
 
@@ -3551,7 +4162,15 @@ button, input, select, textarea {
 	.gallery-inner {
     position: relative;
     float: left;
-    height: 54px;
+    height: 111px;
+}
+
+.tiga{
+	padding-top:460%;
+}
+
+.log{
+	top:7324px;
 }
 }
 
@@ -3559,7 +4178,15 @@ button, input, select, textarea {
 	.gallery-inner {
     position: relative;
     float: left;
-    height: 52px;
+    height: 104px;
+}
+
+.log{
+	top:7275px;
+}
+
+.tiga{
+	padding-top:480%;
 }
 
 }
@@ -3568,7 +4195,15 @@ button, input, select, textarea {
 	.gallery-inner {
     position: relative;
     float: left;
-    height: 50px;
+    height: 101px;
+}
+
+.log{
+	top:7215px;
+}
+
+.tiga{
+	padding-top:500%;
 }
 }
 
@@ -3576,7 +4211,7 @@ button, input, select, textarea {
 	.gallery-inner {
     position: relative;
     float: left;
-    height: 48px;
+    height: 98px;
 }
 }
 
@@ -3584,7 +4219,7 @@ button, input, select, textarea {
 	.gallery-inner {
     position: relative;
     float: left;
-    height: 44px;
+    height: 94px;
 }
 }
 
@@ -3592,7 +4227,7 @@ button, input, select, textarea {
 	.gallery-inner {
     position: relative;
     float: left;
-    height: 41px;
+    height: 91px;
 }
 }
 
@@ -3600,7 +4235,7 @@ button, input, select, textarea {
 	.gallery-inner {
     position: relative;
     float: left;
-    height: 38px;
+    height: 88px;
 }
 }
 
