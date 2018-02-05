@@ -3600,7 +3600,18 @@ button, input, select, textarea {
 }
 
 .tujuh{
-	padding-top:130%;
+	padding-top:100%;
+}
+
+.row{
+	text-align:center;
+}
+
+.list-small-features {
+    padding-top: 50px;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 0px;
 }
 }
 
@@ -3865,6 +3876,10 @@ button, input, select, textarea {
 .ig img {
     width: 25%;
 }
+
+.abua , h4{
+	text-align:center;
+}
 }
 @media (min-width: 375px) and (max-height: 558px){
 	.log{
@@ -3950,7 +3965,7 @@ button, input, select, textarea {
 }
 
 .log {
-    top: 6745px;
+    top: 7835px;
 }
 
 .gallery-inner {
