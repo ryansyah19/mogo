@@ -1125,7 +1125,7 @@ hr{
 
 
 	.jumbroton{
-		padding:0 0 59px 0;
+		padding:0 0 60px 0;
 	}
 	
 	.navbar{
@@ -2809,7 +2809,7 @@ a:hover .teks::before{
 
 .rp p{
 	text-align:center;
-	width:90%;
+	width:100%;
 }
 
 .rowi p{
@@ -3363,6 +3363,22 @@ button, input, select, textarea {
 }
 }
 
+@media (max-width: 1030px){
+	.gallery-inner {
+    position: relative;
+    float: left;
+    height: 199px;
+}
+}
+
+@media (max-width: 1010px){
+	.gallery-inner {
+    position: relative;
+    float: left;
+    height: 198px;
+}
+}
+
 @media (max-width: 990px){
 	.gallery-inner {
     position: relative;
@@ -3453,6 +3469,14 @@ button, input, select, textarea {
 }
 }
 
+@media (max-width: 840px){
+	.gallery-inner {
+    position: relative;
+    float: left;
+    height: 165px;
+}
+}
+
 @media (max-width: 820px){
 	.gallery-inner {
     position: relative;
@@ -3489,7 +3513,15 @@ button, input, select, textarea {
 	.gallery-inner {
     position: relative;
     float: left;
-    height: 156px;
+    height: 152px;
+}
+}
+
+@media (max-width: 760px){
+	.gallery-inner {
+    position: relative;
+    float: left;
+    height: 151px;
 }
 }
 
@@ -3519,6 +3551,10 @@ button, input, select, textarea {
     padding: 0px 5px;
     width: 100%;
 	margin-top:10px;
+}
+
+.yop{
+	height:70px;
 }
 }
 
@@ -4011,25 +4047,25 @@ button, input, select, textarea {
 }
 
 .kol1{
-	width:50%;
+	width:25%;
 	float:left;
 	padding:0;
 }
 
 .kol2{
-	width:50%;
+	width:25%;
 	float:left;
 	padding:0;
 }
 
 .kol3{
-	width:50%;
+	width:25%;
 	float:left;
 	padding:0;
 }
 
 .kol4{
-	width:50%;
+	width:25%;
 	float:left;
 	padding:0;
 }
@@ -4037,7 +4073,7 @@ button, input, select, textarea {
 .gallery-inner {
     position: relative;
     float: left;
-    height: 312px;
+    height: 156px;
     width: 100%;
 }
 }
