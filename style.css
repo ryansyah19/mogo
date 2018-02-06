@@ -3883,13 +3883,13 @@ button, input, select, textarea {
 }
 @media (min-width: 375px) and (max-height: 558px){
 	.log{
-		top:8155px;
+		top:7115px;
 	}
 	
 	.gallery-inner {
     position: relative;
     float: left;
-    height: 153px;
+    height: 109px;
 }
 
 }
@@ -3925,7 +3925,8 @@ button, input, select, textarea {
 }
 	
 }
-@media (min-width: 425px) and (max-height: 558px){
+
+@media (max-width: 425px) and (max-height: 558px){
 	
 .tub {
     width: 100%;
@@ -3965,13 +3966,13 @@ button, input, select, textarea {
 }
 
 .log {
-    top: 7835px;
+    top: 7335px;
 }
 
 .gallery-inner {
     position: relative;
     float: left;
-    height: 108px;
+    height: 86px;
     width: 100%;
 }
 
@@ -4010,6 +4011,14 @@ button, input, select, textarea {
 }
 
 
+}
+
+@media (max-width: 532px) and (max-height:558px){
+	
+	.log {
+    top: 8200px;
+}
+	
 }
 
 @media (min-width: 768px) and (max-height: 558px){
@@ -4104,6 +4113,14 @@ button, input, select, textarea {
 }
 }
 
+@media (max-width: 375px){
+	.gallery-inner {
+    position: relative;
+    float: left;
+    height: 152px;
+}
+}
+
 @media (max-width: 370px){
 	.gallery-inner {
     position: relative;
@@ -4184,7 +4201,7 @@ button, input, select, textarea {
 }
 
 .log{
-	top:7580px;
+	top:7750px;
 }
 
 .tiga{
