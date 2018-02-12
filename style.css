@@ -3223,6 +3223,18 @@ button, input, select, textarea {
 }
 
 }
+
+@media (max-width: 1440px){
+	.gallery-inner {
+    position: relative;
+    float: left;
+    height: 292px;
+}
+
+.geger{
+	top:6390px;
+}
+}
 @media (max-width: 1317px){
 	.gallery-inner {
     position: relative;
@@ -3370,6 +3382,15 @@ button, input, select, textarea {
     height: 199px;
 }
 }
+
+@media (max-width: 1024px){
+	.gallery-inner {
+    position: relative;
+    float: left;
+    height: 208px;
+}
+}
+
 
 @media (max-width: 1010px){
 	.gallery-inner {
@@ -3895,6 +3916,13 @@ button, input, select, textarea {
 }
 @media (min-width: 1024px) and (max-height: 558px){
 	
+.gallery-inner {
+    position: relative;
+    float: left;
+    height: 208px;
+    width: 100%;
+}
+	
 	.hp img {
     position: absolute;
     margin: 0 auto;
@@ -4021,6 +4049,15 @@ button, input, select, textarea {
 	
 }
 
+@media (min-width: 768px) and (max-width: 1024px){
+	
+	.gallery-inner {
+    position: relative;
+    float: left;
+    height: 208px;
+    width: 100%;
+}
+}
 @media (min-width: 768px) and (max-height: 558px){
 	
 .gallery-images .sip .gam {
