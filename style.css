@@ -1194,56 +1194,6 @@ a:hover .teks::before{
 }
 }
 
-@media (max-width: 1344px) and (min-width: 1312px){
-
-.gallery-inner{	
-	position: relative;
-    float: left;
-    height: 269px;
-}
-}
-
-
-
-
-@media(min-width: 768px){
-	
-	
-	
-.navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:hover,
-.navbar-default .navbar-nav>.active>a:focus{
-	background:none;
-	color:#f9c00c;
-	outline:0;
-}
-
-.navbar-default  .navbar-nav>li>a:hover,
-.navbar-default .navbar-nav>li>a:focus{
-	background:none;
-	color:#f9c00c;
-	outline:0;
-}
-	.jumbroton{
-	background: url(images/bird.png) 100% 0 no-repeat;
-	background-size:100% auto;
-	padding:30px 30px 10px;
-}
-
-.jumbroton.caption{
-	background: url(images/11.png) 100% 0 no-repeat;
-	opacity:0;
-	display:block;
-	position:absolute;
-	top:0;
-	width:100%;
-	height:100%;
-	background: rgba(243,156,18,0.9);
-	-webkit-transition	: opacity .1s ease-in-out;
-	
-}
-	
-}
 @media(max-width: 1200px){
 	
 	.blue{
@@ -1710,140 +1660,6 @@ a:hover .teks::before{
 
 }
 
-@media(max-width: 1311px) and (min-width: 1200px){
-	
-	
-.tujuh{
-	padding-top:80%;
-	}
-	
-.geger {
-    background-position: left top;
-    margin-top: left;
-    position: absolute;
-    top: 6210px;
-}
-	
-.gallery-inner {
-    position: relative;
-    float: left;
-    height: 264px;
-}
-	
-.chat {
-    background: #f4f7f7;
-    width: 100%;
-    height: 100%;
-    margin-top: 15%;
-    padding-bottom: 40px;
-    display: inline-block;
-    text-align: center;
-}
-	
-.panel-group {
-    padding-left: 470px;
-    padding-right: 90px;
-    position: absolute;
-    top: 3440px;
-    margin-bottom: 90px;
-}
-	
-.captu{
-	width:35%;
-	padding-left:70px;
-	padding-top:30px;
-}
-	
-.jumbroton{
-	background: url(images/bird.png) 100% 0 no-repeat;
-	background-size:auto;
-	}
-	
-.jumbroton.caption{
-	background: url(images/11.png) 100% 0 no-repeat;
-	opacity:0;
-	display:block;
-	position:absolute;
-	top:0;
-	width:100%;
-	height:100%;
-	background: rgba(243,156,18,0.9);
-	-webkit-transition	: opacity .1s ease-in-out;
-	
-}
-
-.sip {
-    display: inline-block;
-	float:center;
-	text-align:center;
-	vertical-align:middle;
-}
-
-.caption-heading{
-	width: 100%;
-	position	: absolute;
-	bottom	: 0;
-	padding : 0px 0px 80px 0px;
-	color:#fff;
-	font-family: 'Montserrat', sans-serif;
-	font-weight:510;
-	font-size:20px;
-}
-
-
-
-
-.blue img{
-		background-size:100% auto;
-		width:100%;
-	}
-	
-.gallery-images{
-	width:100%;
-}
-	
-
-
-
-
-.gam{
-	
-	text-align:center;
-	background-position:center bottom;
-	position:relative;
-	float:left;
-	margin-top:50px;
-	display:inline-block;
-
-}
-
-.log img{
-	text-align:center;
-	background-position:center bottom;
-}
-
-.log{
-	display:inline-block;
-	text-align:center;
-}
-
-
-.kol3 img{
-	float:left;
-}
-
-
-
-
-
-.geger{
-	background-position	: left top;
-	margin-top:left;
-	position:absolute;
-	top:6136px;
-}
-
-}
 
 @media(max-width: 950px){
 	
@@ -2046,14 +1862,8 @@ a:hover .teks::before{
 
 }
 
-@media(max-width:950px) and (min-width: 768px){
-	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-    margin-left: 295%;
-    width: 100px;
-}
-}
 
-@media(max-width: 950px) and (min-width:600px){
+@media(max-width: 950px){
 	
 .tiga{
 	padding-top:70%;
@@ -2287,7 +2097,7 @@ a:hover .teks::before{
 
 
 .form{
-	width:10px;
+	width:100%;
 }
 
 	
@@ -2489,7 +2299,7 @@ a:hover .teks::before{
 
 }
 
-@media(max-width: 500px) and (min-width: 361px){
+@media(max-width: 500px){
 	
 .happy {
     font-family: 'Montserrat', sans-serif;
@@ -2563,7 +2373,7 @@ a:hover .teks::before{
 
 }
 
-@media(min-width: 410px) and (max-width: 600px){
+@media (max-width: 600px){
 	
 
 .tiga{
@@ -2763,7 +2573,7 @@ a:hover .teks::before{
 
 }
 
-@media(max-width: 410px) and (min-width: 230px){
+@media(max-width: 410px){
 	
 .blue{
 	height:auto;
@@ -3176,6 +2986,18 @@ button, input, select, textarea {
 }
 
 @media (max-width: 320px){
+	
+.gam .caption {
+    opacity: 0;
+    display: block;
+    position: absolute;
+    top: 2px;
+    width: 99%;
+    height: 97%;
+    left: 0.5%;
+    background: url(images/color.png);
+    -webkit-transition: opacity .1s ease-in-out;
+}
 	
 .btn-primary {
     color: #fff;
@@ -3841,6 +3663,10 @@ button, input, select, textarea {
     height: 159px;
 }
 
+.rp {
+    width: 79%;
+}
+
 .log{
 	top:8040px;
 }
@@ -3902,59 +3728,8 @@ button, input, select, textarea {
 	text-align:center;
 }
 }
-@media (min-width: 375px) and (max-height: 558px){
-	.log{
-		top:7115px;
-	}
-	
-	.gallery-inner {
-    position: relative;
-    float: left;
-    height: 109px;
-}
 
-}
-@media (min-width: 1024px) and (max-height: 558px){
-	
-.gallery-inner {
-    position: relative;
-    float: left;
-    height: 208px;
-    width: 100%;
-}
-	
-	.hp img {
-    position: absolute;
-    margin: 0 auto;
-    left: 430px;
-    top: 2670px;
-    bottom: 0;
-    right: 0;
-    display: inline-block;
-    width: 250px;
-}
-
-.panel-group {
-    padding-left: 519px;
-    padding-right: 5px;
-    position: absolute;
-    top: 3407px;
-}
-
-.log img {
-    text-align: center;
-    background-position: center bottom;
-    width: 15%;
-}
-
-.kol1{
-	width:25%;
-	float:left;
-}
-	
-}
-
-@media (max-width: 425px) and (max-height: 558px){
+@media (max-width: 425px){
 	
 .tub {
     width: 100%;
@@ -3964,9 +3739,9 @@ button, input, select, textarea {
     opacity: 0;
     display: block;
     position: absolute;
-    top: 4px;
+    top: 3px;
     width: 99%;
-    height: 96%;
+    height: 98%;
     left: 0.5%;
     background: url(images/color.png);
     -webkit-transition: opacity .1s ease-in-out;
@@ -4041,7 +3816,7 @@ button, input, select, textarea {
 
 }
 
-@media (max-width: 532px) and (max-height:558px){
+@media (max-width: 532px){
 	
 	.log {
     top: 8200px;
@@ -4049,106 +3824,6 @@ button, input, select, textarea {
 	
 }
 
-@media (min-width: 768px) and (max-width: 1024px){
-	
-	.gallery-inner {
-    position: relative;
-    float: left;
-    height: 208px;
-    width: 100%;
-}
-}
-@media (min-width: 768px) and (max-height: 558px){
-	
-.gallery-images .sip .gam {
-    width: 33%;
-    height: auto;
-	padding:10px;
-}
-	.jumbroton {
-    padding: 45px 0;
-}
-
-.blue{
-	margin-top:5%;
-}
-
-
-
-.gam .caption {
-    opacity: 0;
-    display: block;
-    position: absolute;
-    top: 8px;
-    width: 93%;
-    height: 90%;
-    left: 3.5%;
-    background: url(images/color.png);
-    -webkit-transition: opacity .1s ease-in-out;
-}
-
-.tub {
-    width: 50%;
-    padding-top: 60px;
-}
-
-.captu{
-	width:50%;
-}
-
-.log img {
-    text-align: center;
-    background-position: center bottom;
-}
-
-.log{
-	top:5000px;
-}
-
-.headah {
-    margin-top: 5px;
-    margin-left: 130px;
-    background: url(images/heading.png) no-repeat;
-    text-align: left;
-    background-position: left bottom;
-    padding: 0 20px 4px 0;
-}
-
-.rp {
-    font-weight: 900;
-}
-
-.kol1{
-	width:25%;
-	float:left;
-	padding:0;
-}
-
-.kol2{
-	width:25%;
-	float:left;
-	padding:0;
-}
-
-.kol3{
-	width:25%;
-	float:left;
-	padding:0;
-}
-
-.kol4{
-	width:25%;
-	float:left;
-	padding:0;
-}
-
-.gallery-inner {
-    position: relative;
-    float: left;
-    height: 156px;
-    width: 100%;
-}
-}
 
 @media (max-width: 375px){
 	.gallery-inner {
@@ -4229,12 +3904,6 @@ button, input, select, textarea {
 	.log{
 	top:7611px;
 }
-}
-@media (max-width: 320px){
-	.gallery-inner {
-    position: relative;
-    float: left;
-    height: 130px;
 }
 
 .log{
