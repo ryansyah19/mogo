@@ -430,7 +430,7 @@ hr{
 	text-align:center;
 	background-color:#f4f4f4;
 	position:absolute;
-	top:5090px;
+	top:5230px;
 }
 .log img{
 	text-align:center;
@@ -563,7 +563,7 @@ hr{
 	position:absolute;
 	margin:0 auto;
 	left:410px;
-	top:2760px;
+	top:2830px;
 	bottom:0;
 	right:0;
 	display:inline-block;
@@ -772,7 +772,7 @@ hr{
 .sepuluh{
 	background:url(images/map1.png) no-repeat;
 	background-position:center bottom;
-	background-size:100% auto;
+	background-size:cover;
 	text-align:center;
 }
 
@@ -783,10 +783,11 @@ hr{
 
 
 .sep{
-	text-align:center;
-	vertical-align:middle;
-	padding-top:150px;
-	padding-bottom:15px;
+	text-align: center;
+    vertical-align: middle;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    margin-top: 95px;
 }
 
 
@@ -1176,7 +1177,7 @@ a:hover .teks::before{
 	padding-left:620px;
 	padding-right:90px;
 	position: absolute;
-    top: 3435px;
+    top: 3500px;
 	margin-bottom:90px;
 }
 
@@ -1184,13 +1185,45 @@ a:hover .teks::before{
 	width:400px;
 }
 
+@media (max-width: 1410px){
+	.log {
+    width: 100%;
+    text-align: center;
+    background-color: #f4f4f4;
+    position: absolute;
+    top: 5210px;
+}
+}
 
+@media (max-width: 1370px){
+	.log {
+    width: 100%;
+    text-align: center;
+    background-color: #f4f4f4;
+    position: absolute;
+    top: 5150px;
+}
+}
 @media (max-width: 1365px){
 
 .gallery-inner{	
 	position: relative;
     float: left;
     height: 273px;
+}
+}
+
+@media (max-width: 1330px){
+.gallery-inner {
+    position: relative;
+    float: left;
+    height: 270px;
+}
+}
+
+@media (max-width: 1350px){
+	.log {
+    top: 5050px;
 }
 }
 
@@ -1318,8 +1351,6 @@ a:hover .teks::before{
     font-size: 20px;
 }
 	
-
-	
 .gallery-inner {
     position: relative;
     float: left;
@@ -1445,7 +1476,7 @@ a:hover .teks::before{
 
 .log{
 	text-align:center;
-	top:4670px;
+	top:4755px;
 }
 
 .log img{
@@ -1629,7 +1660,8 @@ a:hover .teks::before{
 }
 
 .sep{
-	padding-top:0px;
+	padding-top: 3%;
+    padding-bottom: 2%;
 	
 }
 
@@ -1658,6 +1690,13 @@ a:hover .teks::before{
 }
 
 
+}
+
+@media (max-width: 1000px){
+	.log{
+	text-align:center;
+	top:4790px;
+}
 }
 
 
@@ -1789,7 +1828,7 @@ a:hover .teks::before{
 }
 
 .tujuh{
-	padding-top:100%;
+	padding-top:110%;
 }
 
 .abu2{
@@ -2552,7 +2591,7 @@ a:hover .teks::before{
     position: absolute;
     top: 3px;
     width: 70%;
-    height: 95%;
+    height: 97%;
     left: 15%;
 
     background: url(images/color.png);
@@ -3047,16 +3086,12 @@ button, input, select, textarea {
 }
 
 @media (max-width: 1440px){
-	.gallery-inner {
-    position: relative;
-    float: left;
-    height: 292px;
-}
 
 .geger{
-	top:6390px;
+	top:6275px;
 }
 }
+
 @media (max-width: 1317px){
 	.gallery-inner {
     position: relative;
@@ -3066,6 +3101,18 @@ button, input, select, textarea {
 }
 
 @media (max-width: 1300px){
+	
+	.panel-group {
+    padding-left: 620px;
+    padding-right: 90px;
+    position: absolute;
+    top: 3450px;
+    margin-bottom: 90px;
+}
+	
+	.geger{
+	top:6220px;
+}
 	.gallery-inner {
     position: relative;
     float: left;
@@ -3408,6 +3455,10 @@ button, input, select, textarea {
     float: left;
     height: 140px;
 }
+
+	.log{
+		top:4980px;
+	}
 }
 
 @media (max-width: 690px){
@@ -3416,6 +3467,10 @@ button, input, select, textarea {
     float: left;
     height: 137px;
 }
+
+.log{
+		top:4940px;
+	}
 }
 
 @media (max-width: 670px){
@@ -3424,6 +3479,10 @@ button, input, select, textarea {
     float: left;
     height: 133px;
 }
+
+.log{
+		top:4900px;
+	}
 }
 
 @media (max-width: 650px){
@@ -3431,6 +3490,10 @@ button, input, select, textarea {
     position: relative;
     float: left;
     height: 130px;
+}
+
+.log {
+    top: 4860px;
 }
 
 }
@@ -3443,7 +3506,7 @@ button, input, select, textarea {
 }
 
 .tujuh{
-	padding-top:100%;
+	padding-top:117%;
 }
 
 .row{
@@ -3455,6 +3518,10 @@ button, input, select, textarea {
     text-decoration: none;
     list-style: none;
     padding-left: 0px;
+}
+
+.log{
+	top:4850px;
 }
 }
 
@@ -3468,6 +3535,12 @@ button, input, select, textarea {
 .captu{
 	width:100%;
 }
+
+.log {
+    top: 4812px;
+}
+
+
 }
 
 @media (max-width: 600px){
@@ -3477,9 +3550,19 @@ button, input, select, textarea {
     height: 116px;
 }
 
+.log {
+    top: 7115px;
+}
+
 .tiga{
 	padding-top:230%;
 	}
+}
+
+@media (max-width: 590px){
+	.log {
+    top: 7060px;
+}
 }
 
 @media (max-width: 580px){
@@ -3488,12 +3571,20 @@ button, input, select, textarea {
     float: left;
     height: 113px;
 }
+
+.log {
+    top: 7010px;
+}
 }
 
 @media (max-width: 570px){
 	.col-lg-6{
 		width:100%;
 	}
+	
+	.log {
+    top: 6960px;
+}
 }
 
 @media (max-width: 564px){
@@ -3510,11 +3601,19 @@ button, input, select, textarea {
     height: 110px;
 }
 
+.log {
+    top: 7180px;
+}
+
 .tiga{
 	padding-top:280%;
 	}
 }
 
+@media (max-width: 550px){
+	.log{top:7100px;
+}
+}
 @media (max-width: 540px){
 	.gallery-inner {
     position: relative;
@@ -3772,13 +3871,6 @@ button, input, select, textarea {
     top: 7335px;
 }
 
-.gallery-inner {
-    position: relative;
-    float: left;
-    height: 86px;
-    width: 100%;
-}
-
 .gallery-images img {
     width: 100%;
 }
@@ -3819,10 +3911,132 @@ button, input, select, textarea {
 @media (max-width: 532px){
 	
 	.log {
-    top: 8200px;
+    top: 7025px;
 }
 	
 }
+
+@media (max-width: 520px){
+	
+	.log {
+    top: 6955px;
+}
+	
+}
+
+@media (max-width: 510px){
+	
+	.log {
+    top: 6850px;
+}
+	
+}
+
+@media (max-width: 500px){
+	
+	.log {
+    top: 6770px;
+}
+	
+}
+
+@media (max-width: 490px){
+	
+	.log {
+    top: 6730px;
+}
+	
+}
+
+@media (max-width: 480px){
+	
+	.log {
+    top: 6680px;
+}
+	
+}
+
+@media (max-width: 470px){
+	
+	.log {
+    top: 6755px;
+}
+	
+}
+
+@media (max-width: 460px){
+	
+	.log {
+    top: 6675px;
+}
+	
+}
+
+@media (max-width: 450px){
+	
+	.log {
+    top: 6735px;
+}
+	
+}
+
+@media (max-width: 440px){
+	
+	.log {
+    top: 6675px;
+}
+	
+}
+
+@media (max-width: 430px){
+	
+	.log {
+    top: 7155px;
+}
+	
+}
+
+@media (max-width: 420px){
+	
+	.log {
+    top: 7220px;
+}
+	
+}
+
+@media (max-width: 410px){
+	
+	.log {
+    top: 8430px;
+}
+	
+}
+
+@media (max-width: 400px){
+	
+	.log {
+    top: 8185px;
+}
+	
+}
+
+@media (max-width: 390px){
+	
+	.log {
+    top: 8070px;
+}
+	
+}
+
+@media (max-width: 380px){
+	
+	.log {
+    top: 8015px;
+}
+	
+}
+
+
 
 
 @media (max-width: 375px){
@@ -3831,6 +4045,10 @@ button, input, select, textarea {
     float: left;
     height: 152px;
 }
+
+.log {
+    top: 7950px;
+}
 }
 
 @media (max-width: 370px){
@@ -3838,6 +4056,10 @@ button, input, select, textarea {
     position: relative;
     float: left;
     height: 145px;
+}
+
+.log {
+    top: 7860px;
 }
 }
 
@@ -3848,12 +4070,16 @@ button, input, select, textarea {
     height: 138px;
 }
 
+.log {
+    top: 7810px;
+}
+
 .tiga{
 	padding-top:380%;
 }
 
 .log{
-	top:7933px;
+	top:7780px;
 }
 }
 
@@ -3864,7 +4090,7 @@ button, input, select, textarea {
     height: 135px;
 }
 .log{
-	top:7860px;
+	top:7744px;
 }
 
 }
@@ -3903,15 +4129,6 @@ button, input, select, textarea {
 @media (max-width: 325px){
 	.log{
 	top:7611px;
-}
-}
-
-.log{
-	top:7750px;
-}
-
-.tiga{
-	padding-top:420%;
 }
 }
 
